@@ -47,6 +47,7 @@ function handleTweets(tweets) {
 
                         sketch.background(0);
                         sketch.stroke(255);
+                        sketch.noFill();
                         // sketch.strokeWeight(sketch.random(50));
 
                         var max = window.innerWidth / 12;
@@ -93,6 +94,7 @@ function handleTweets(tweets) {
 
                         sketch.background(0);
                         sketch.stroke(255);
+                        sketch.noFill();
                         // sketch.strokeWeight(sketch.random(50));
 
                         var max = window.innerWidth / 12;
@@ -149,6 +151,7 @@ function handleTweets(tweets) {
 
                         sketch.background(0);
                         sketch.stroke(255);
+                        sketch.noFill();
                         // sketch.strokeWeight(sketch.random(50));
 
                         var max = window.innerWidth / 12;
@@ -181,6 +184,7 @@ function handleTweets(tweets) {
 
                         sketch.background(0);
                         sketch.stroke(255);
+                        sketch.noFill();
                         // sketch.strokeWeight(sketch.random(50));
 
                         var max = window.innerWidth / 12;
@@ -226,6 +230,7 @@ function handleTweets(tweets) {
 
                         sketch.background(0);
                         sketch.stroke(255);
+                        sketch.noFill();
                         // sketch.strokeWeight(sketch.random(50));
 
                         var max = window.innerWidth / 12;
@@ -272,6 +277,7 @@ function handleTweets(tweets) {
 
                         sketch.background(0);
                         sketch.stroke(255);
+                        sketch.noFill();
                         // sketch.strokeWeight(sketch.random(50));
 
                         var max = window.innerWidth / 12;
@@ -321,6 +327,7 @@ function handleTweets(tweets) {
 
                         sketch.background(0);
                         sketch.stroke(255);
+                        sketch.noFill();
                         // sketch.strokeWeight(sketch.random(50));
 
                         var max = window.innerWidth / 12;
@@ -366,6 +373,7 @@ function handleTweets(tweets) {
 
                         sketch.background(0);
                         sketch.stroke(255);
+                        sketch.noFill();
                         // sketch.strokeWeight(sketch.random(50));
 
                         var max = window.innerWidth / 12;
@@ -410,6 +418,7 @@ function handleTweets(tweets) {
 
                         sketch.background(0);
                         sketch.stroke(255);
+                        sketch.noFill();
                         // sketch.strokeWeight(sketch.random(50));
 
                         var max = window.innerWidth / 12;
@@ -458,6 +467,7 @@ function handleTweets(tweets) {
 
                         sketch.background(0);
                         sketch.stroke(255);
+                        sketch.noFill();
                         // sketch.strokeWeight(sketch.random(50));
 
                         var max = window.innerWidth / 12;
@@ -504,6 +514,7 @@ function handleTweets(tweets) {
 
                         sketch.background(0);
                         sketch.stroke(255);
+                        sketch.noFill();
                         // sketch.strokeWeight(sketch.random(50));
 
                         var max = window.innerWidth / 12;
@@ -548,6 +559,7 @@ function handleTweets(tweets) {
 
                         sketch.background(0);
                         sketch.stroke(255);
+                        sketch.noFill();
                         // sketch.strokeWeight(sketch.random(50));
 
                         var max = window.innerWidth / 12;
@@ -590,6 +602,7 @@ function handleTweets(tweets) {
 
                         sketch.background(0);
                         sketch.stroke(255);
+                        sketch.noFill();
                         // sketch.strokeWeight(sketch.random(50));
 
                         var max = window.innerWidth / 12;
@@ -637,6 +650,7 @@ function handleTweets(tweets) {
 
                         sketch.background(0);
                         sketch.stroke(255);
+                        sketch.noFill();
                         // sketch.strokeWeight(sketch.random(50));
 
                         var max = window.innerWidth / 12;
@@ -681,6 +695,7 @@ function handleTweets(tweets) {
 
                         sketch.background(0);
                         sketch.stroke(255);
+                        sketch.noFill();
                         // sketch.strokeWeight(sketch.random(50));
 
                         var max = window.innerWidth / 12;
@@ -720,6 +735,7 @@ function handleTweets(tweets) {
 
                         sketch.background(0);
                         sketch.stroke(255);
+                        sketch.noFill();
                         // sketch.strokeWeight(sketch.random(50));
 
                         var max = window.innerWidth / 12;
@@ -772,6 +788,7 @@ function handleTweets(tweets) {
 
                         sketch.background(0);
                         sketch.stroke(255);
+                        sketch.noFill();
                         // sketch.strokeWeight(sketch.random(50));
 
                         var max = window.innerWidth / 12;
@@ -819,6 +836,7 @@ function handleTweets(tweets) {
 
                         sketch.background(0);
                         sketch.stroke(255);
+                        sketch.noFill();
                         // sketch.strokeWeight(sketch.random(50));
 
                         var max = window.innerWidth / 12;
@@ -876,6 +894,7 @@ function handleTweets(tweets) {
 
                         sketch.background(0);
                         sketch.stroke(255);
+                        sketch.noFill();
                         // sketch.strokeWeight(sketch.random(50));
 
                         var max = window.innerWidth / 12;
@@ -928,6 +947,7 @@ function handleTweets(tweets) {
 
                         sketch.background(0);
                         sketch.stroke(255);
+                        sketch.noFill();
                         // sketch.strokeWeight(sketch.random(50));
 
                         var max = window.innerWidth / 12;
@@ -978,6 +998,7 @@ function handleTweets(tweets) {
 
                         sketch.background(0);
                         sketch.stroke(255);
+                        sketch.noFill();
                         // sketch.strokeWeight(sketch.random(50));
 
                         var max = window.innerWidth / 12;
@@ -1025,6 +1046,7 @@ function handleTweets(tweets) {
 
                         sketch.background(0);
                         sketch.stroke(255);
+                        sketch.noFill();
                         // sketch.strokeWeight(sketch.random(50));
 
                         var max = window.innerWidth / 12;
@@ -1068,6 +1090,7 @@ function handleTweets(tweets) {
 
                         sketch.background(0);
                         sketch.stroke(255);
+                        sketch.noFill();
                         // sketch.strokeWeight(sketch.random(50));
 
                         var max = window.innerWidth / 12;
@@ -1115,6 +1138,7 @@ function handleTweets(tweets) {
 
                         sketch.background(0);
                         sketch.stroke(255);
+                        sketch.noFill();
                         // sketch.strokeWeight(sketch.random(50));
 
                         var max = window.innerWidth / 12;
@@ -1159,6 +1183,7 @@ function handleTweets(tweets) {
 
                         sketch.background(0);
                         sketch.stroke(255);
+                        sketch.noFill();
                         // sketch.strokeWeight(sketch.random(50));
 
                         var max = window.innerWidth / 11;
@@ -1204,6 +1229,7 @@ function handleTweets(tweets) {
 
                         sketch.background(0);
                         sketch.stroke(255);
+                        sketch.noFill();
                         // sketch.strokeWeight(sketch.random(50));
 
                         var max = window.innerWidth / 12;
@@ -1247,6 +1273,7 @@ function handleTweets(tweets) {
 
                         sketch.background(0);
                         sketch.stroke(255);
+                        sketch.noFill();
                         // sketch.strokeWeight(sketch.random(50));
 
                     }
