@@ -580,7 +580,7 @@ var configProfile = {
 
   "profile": {"screenName": '_annafeng'},
   // "id": '983227698138025984',
-  "domId": 'example1',
+  "domId": 'example1', 
   "maxTweets": 1,
   "enableLinks": false, 
   "showUser": false,
