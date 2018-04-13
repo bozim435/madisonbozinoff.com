@@ -578,8 +578,7 @@
 
 var configProfile = {
 
-  "profile": {"screenName": '_annafeng'},
-  // "id": '983227698138025984',
+  "id": '984673002418778112',
   "domId": 'example1', 
   "maxTweets": 1,
   "enableLinks": false, 
@@ -593,85 +592,3 @@ var configProfile = {
 };
 
 twitterFetcher.fetch(configProfile);
-
-// Random = 983220909551972353
-// Output = 983227698138025984
-// Accts = ttrashcastt
-// Another Account = 
-
-/* 
-*
-*
-*
-##################### IMPORTANT STUFF ######################
-############################################################
-############################################################
-*
-*
-*
-*/
-
-// var config5 = {
-
-//     "id": '980241609701945344',
-//     "domId": 'example5',
-//     "maxTweets": 1,
-//     "enableLinks": false,
-//     "showUser": false,
-//     "showTime": false,
-//     "dateFunction": '',
-//     "showRetweet": false,
-//     "customCallback": handleTweets,
-//     "showInteraction": false
-
-// };
-
-// function handleTweets(tweets) {
-
-//     var x = tweets.length;
-//     var n = 0;    
-//     var t = tweets[0];
-
-//     console.log(t);
-
-//     function splitString(stringToSplit, separator) {
-
-//         var arrayOfStrings = stringToSplit.split(separator);
-
-//         console.log('The original string is: "' + stringToSplit + '"');
-//         console.log('The separator is: "' + separator + '"');
-//         console.log('The array has ' + arrayOfStrings.length + ' elements: ' + arrayOfStrings.join(' / '));
-
-//         for (var i = 0; i < arrayOfStrings.length; i++) {
-//             console.log(arrayOfStrings[i]);
-//         }
-
-//         console.log('Element number 1 is ' + arrayOfStrings[0] + '.');
-
-//     }
-
-//     var tempestString = 'Oh brave new world that has such people in it.';
-//     var space = '';
-
-//     splitString(t, space);
-
-// }
-
-// twitterFetcher.fetch(config5);
-
-/* 
-*
-*
-*
-##################### IMPORTANT STUFF ######################
-############################################################
-############################################################
-*
-*
-*
-*/            
-
-// <a class="twitter-timeline"  href="https://twitter.com/search?q=ouput" data-widget-id="983227698138025984">Tweets about ouput</a>
-//             <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-          
-

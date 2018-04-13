@@ -24,16 +24,6 @@ function handleTweets(tweets) {
 
             if (arrayOfStrings[i] === 'a' || arrayOfStrings[i] === 'A') {
 
-                // var r;
-
-                // setInterval(function() {
-
-                //    r = Math.random() * 50;
-
-                // }, 500);
-
-                // console.log(r);
-
                 var s = function( sketch ) {
 
                     sketch.setup = function() {
@@ -46,7 +36,6 @@ function handleTweets(tweets) {
                     sketch.draw = function() {
 
                         sketch.background(255);
-                        // sketch.strokeWeight(sketch.random(50));
 
                         var max = window.innerWidth / 12;
 
@@ -65,7 +54,6 @@ function handleTweets(tweets) {
                         var midy = ((y - y1) / 2) + y1;
 
                         sketch.line(x1, y1, x2, y);
-                        // lerp(x1, x2, 15);
                         sketch.line(x1, y1, x3, y);
                         sketch.line(midx1, midy, midx2, midy);
 
@@ -91,7 +79,6 @@ function handleTweets(tweets) {
                     sketch.draw = function() {
 
                         sketch.background(255);
-                        // sketch.strokeWeight(sketch.random(50));
 
                         var max = window.innerWidth / 12;
                         
@@ -146,7 +133,6 @@ function handleTweets(tweets) {
                     sketch.draw = function() {
 
                         sketch.background(255);
-                        // sketch.strokeWeight(sketch.random(50));
 
                         var max = window.innerWidth / 12;
                         
@@ -177,7 +163,6 @@ function handleTweets(tweets) {
                     sketch.draw = function() {
 
                         sketch.background(255);
-                        // sketch.strokeWeight(sketch.random(50));
 
                         var max = window.innerWidth / 12;
                         
@@ -221,7 +206,6 @@ function handleTweets(tweets) {
                     sketch.draw = function() {
 
                         sketch.background(255);
-                        // sketch.strokeWeight(sketch.random(50));
 
                         var max = window.innerWidth / 12;
 
@@ -266,7 +250,6 @@ function handleTweets(tweets) {
                     sketch.draw = function() {
 
                         sketch.background(255);
-                        // sketch.strokeWeight(sketch.random(50));
 
                         var max = window.innerWidth / 12;
 
@@ -314,7 +297,6 @@ function handleTweets(tweets) {
                     sketch.draw = function() {
 
                         sketch.background(255);
-                        // sketch.strokeWeight(sketch.random(50));
 
                         var max = window.innerWidth / 12;
 
@@ -358,7 +340,6 @@ function handleTweets(tweets) {
                     sketch.draw = function() {
 
                         sketch.background(255);
-                        // sketch.strokeWeight(sketch.random(50));
 
                         var max = window.innerWidth / 12;
 
@@ -401,7 +382,6 @@ function handleTweets(tweets) {
                     sketch.draw = function() {
 
                         sketch.background(255);
-                        // sketch.strokeWeight(sketch.random(50));
 
                         var max = window.innerWidth / 12;
 
@@ -448,7 +428,6 @@ function handleTweets(tweets) {
                     sketch.draw = function() {
 
                         sketch.background(255);
-                        // sketch.strokeWeight(sketch.random(50));
 
                         var max = window.innerWidth / 12;
 
@@ -493,7 +472,6 @@ function handleTweets(tweets) {
                     sketch.draw = function() {
 
                         sketch.background(255);
-                        // sketch.strokeWeight(sketch.random(50));
 
                         var max = window.innerWidth / 12;
 
@@ -536,7 +514,6 @@ function handleTweets(tweets) {
                     sketch.draw = function() {
 
                         sketch.background(255);
-                        // sketch.strokeWeight(sketch.random(50));
 
                         var max = window.innerWidth / 12;
 
@@ -577,7 +554,6 @@ function handleTweets(tweets) {
                     sketch.draw = function() {
 
                         sketch.background(255);
-                        // sketch.strokeWeight(sketch.random(50));
 
                         var max = window.innerWidth / 12;
 
@@ -623,7 +599,6 @@ function handleTweets(tweets) {
                     sketch.draw = function() {
 
                         sketch.background(255);
-                        // sketch.strokeWeight(sketch.random(50));
 
                         var max = window.innerWidth / 12;
 
@@ -666,7 +641,6 @@ function handleTweets(tweets) {
                     sketch.draw = function() {
 
                         sketch.background(255);
-                        // sketch.strokeWeight(sketch.random(50));
 
                         var max = window.innerWidth / 12;
 
@@ -704,7 +678,6 @@ function handleTweets(tweets) {
                     sketch.draw = function() {
 
                         sketch.background(255);
-                        // sketch.strokeWeight(sketch.random(50));
 
                         var max = window.innerWidth / 12;
 
@@ -755,7 +728,6 @@ function handleTweets(tweets) {
                     sketch.draw = function() {
 
                         sketch.background(255);
-                        // sketch.strokeWeight(sketch.random(50));
 
                         var max = window.innerWidth / 12;
 
@@ -801,7 +773,6 @@ function handleTweets(tweets) {
                     sketch.draw = function() {
 
                         sketch.background(255);
-                        // sketch.strokeWeight(sketch.random(50));
 
                         var max = window.innerWidth / 12;
 
@@ -857,7 +828,6 @@ function handleTweets(tweets) {
                     sketch.draw = function() {
 
                         sketch.background(255);
-                        // sketch.strokeWeight(sketch.random(50));
 
                         var max = window.innerWidth / 12;
 
@@ -908,7 +878,6 @@ function handleTweets(tweets) {
                     sketch.draw = function() {
 
                         sketch.background(255);
-                        // sketch.strokeWeight(sketch.random(50));
 
                         var max = window.innerWidth / 12;
 
@@ -957,7 +926,6 @@ function handleTweets(tweets) {
                     sketch.draw = function() {
 
                         sketch.background(255);
-                        // sketch.strokeWeight(sketch.random(50));
 
                         var max = window.innerWidth / 12;
 
@@ -1003,7 +971,6 @@ function handleTweets(tweets) {
                     sketch.draw = function() {
 
                         sketch.background(255);
-                        // sketch.strokeWeight(sketch.random(50));
 
                         var max = window.innerWidth / 12;
 
@@ -1045,7 +1012,6 @@ function handleTweets(tweets) {
                     sketch.draw = function() {
 
                         sketch.background(255);
-                        // sketch.strokeWeight(sketch.random(50));
 
                         var max = window.innerWidth / 12;
 
@@ -1091,7 +1057,6 @@ function handleTweets(tweets) {
                     sketch.draw = function() {
 
                         sketch.background(255);
-                        // sketch.strokeWeight(sketch.random(50));
 
                         var max = window.innerWidth / 12;
 
@@ -1134,7 +1099,6 @@ function handleTweets(tweets) {
                     sketch.draw = function() {
 
                         sketch.background(255);
-                        // sketch.strokeWeight(sketch.random(50));
 
                         var max = window.innerWidth / 11;
 
@@ -1178,7 +1142,6 @@ function handleTweets(tweets) {
                     sketch.draw = function() {
 
                         sketch.background(255);
-                        // sketch.strokeWeight(sketch.random(50));
 
                         var max = window.innerWidth / 12;
 
@@ -1220,7 +1183,6 @@ function handleTweets(tweets) {
                     sketch.draw = function() {
 
                         sketch.background(255);
-                        // sketch.strokeWeight(sketch.random(50));
 
                     }
 

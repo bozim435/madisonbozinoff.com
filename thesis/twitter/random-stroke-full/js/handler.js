@@ -48,7 +48,8 @@ function handleTweets(tweets) {
                         sketch.background(255);
                         sketch.strokeWeight(r);
 
-                        var max = window.innerWidth / 12;
+                        var max = (window.innerWidth / 12) - r ;
+                        sketch.translate(r / 2, r / 2);
 
                         var x1 = sketch.random(5, max);
 
@@ -65,7 +66,6 @@ function handleTweets(tweets) {
                         var midy = ((y - y1) / 2) + y1;
 
                         sketch.line(x1, y1, x2, y);
-                        // lerp(x1, x2, 15);
                         sketch.line(x1, y1, x3, y);
                         sketch.line(midx1, midy, midx2, midy);
 
@@ -93,8 +93,9 @@ function handleTweets(tweets) {
                         sketch.background(255);
                         sketch.strokeWeight(r);
 
-                        var max = window.innerWidth / 12;
-                        
+                        var max = (window.innerWidth / 12) - r ;
+                        sketch.translate(r / 2, r / 2);
+
                         var q1 = max / 4;
                         var q2 = max / 2;
                         var q3 = (max / 4) * 3;
@@ -148,7 +149,8 @@ function handleTweets(tweets) {
                         sketch.background(255);
                         sketch.strokeWeight(r);
 
-                        var max = window.innerWidth / 12;
+                        var max = (window.innerWidth / 12) - r ;
+                        sketch.translate(r / 2, r / 2);
                         
                         var h = sketch.random(5, max);
                         var w = sketch.random(5, max);
@@ -179,7 +181,8 @@ function handleTweets(tweets) {
                         sketch.background(255);
                         sketch.strokeWeight(r);
 
-                        var max = window.innerWidth / 12;
+                        var max = (window.innerWidth / 12) - r ;
+                        sketch.translate(r / 2, r / 2);
                         
                         // quarters of the canvas
                         var q1 = max / 4;
@@ -223,7 +226,8 @@ function handleTweets(tweets) {
                         sketch.background(255);
                         sketch.strokeWeight(r);
 
-                        var max = window.innerWidth / 12;
+                        var max = (window.innerWidth / 12) - r ;
+                        sketch.translate(r / 2, r / 2);
 
                         var q1 = max / 4;
                         var q2 = max / 2;
@@ -268,7 +272,8 @@ function handleTweets(tweets) {
                         sketch.background(255);
                         sketch.strokeWeight(r);
 
-                        var max = window.innerWidth / 12;
+                        var max = (window.innerWidth / 12) - r ;
+                        sketch.translate(r / 2, r / 2);
 
                         // quarters of the canvas
                         var q1 = max / 4;
@@ -316,7 +321,8 @@ function handleTweets(tweets) {
                         sketch.background(255);
                         sketch.strokeWeight(r);
 
-                        var max = window.innerWidth / 12;
+                        var max = (window.innerWidth / 12) - r ;
+                        sketch.translate(r / 2, r / 2);
 
                         // quarters of the canvas
                         var q1 = max / 4;
@@ -360,7 +366,8 @@ function handleTweets(tweets) {
                         sketch.background(255);
                         sketch.strokeWeight(r);
 
-                        var max = window.innerWidth / 12;
+                        var max = (window.innerWidth / 12) - r ;
+                        sketch.translate(r / 2, r / 2);
 
                         // quarters of the canvas
                         var q1 = max / 4;
@@ -403,7 +410,8 @@ function handleTweets(tweets) {
                         sketch.background(255);
                         sketch.strokeWeight(r);
 
-                        var max = window.innerWidth / 12;
+                        var max = (window.innerWidth / 12) - r ;
+                        sketch.translate(r / 2, r / 2);
 
                         // quarters of the canvas
                         var q1 = max / 4;
@@ -450,7 +458,8 @@ function handleTweets(tweets) {
                         sketch.background(255);
                         sketch.strokeWeight(r);
 
-                        var max = window.innerWidth / 12;
+                        var max = (window.innerWidth / 12) - r ;
+                        sketch.translate(r / 2, r / 2);
 
                         // quarters of the canvas
                         var q1 = max / 4;
@@ -495,7 +504,8 @@ function handleTweets(tweets) {
                         sketch.background(255);
                         sketch.strokeWeight(r);
 
-                        var max = window.innerWidth / 12;
+                        var max = (window.innerWidth / 12) - r ;
+                        sketch.translate(r / 2, r / 2);
 
                         // quarters of the canvas
                         var q1 = max / 4;
@@ -538,7 +548,8 @@ function handleTweets(tweets) {
                         sketch.background(255);
                         sketch.strokeWeight(r);
 
-                        var max = window.innerWidth / 12;
+                        var max = (window.innerWidth / 12) - r ;
+                        sketch.translate(r / 2, r / 2);
 
                         // quarters of the canvas
                         var q1 = max / 4;
@@ -579,7 +590,8 @@ function handleTweets(tweets) {
                         sketch.background(255);
                         sketch.strokeWeight(r);
 
-                        var max = window.innerWidth / 12;
+                        var max = (window.innerWidth / 12) - r ;
+                        sketch.translate(r / 2, r / 2);
 
                         // quarters of the canvas
                         var q1 = max / 4;
@@ -625,7 +637,8 @@ function handleTweets(tweets) {
                         sketch.background(255);
                         sketch.strokeWeight(r);
 
-                        var max = window.innerWidth / 12;
+                        var max = (window.innerWidth / 12) - r ;
+                        sketch.translate(r / 2, r / 2);
 
                         // quarters of the canvas
                         var q1 = max / 4;
@@ -668,7 +681,8 @@ function handleTweets(tweets) {
                         sketch.background(255);
                         sketch.strokeWeight(r);
 
-                        var max = window.innerWidth / 12;
+                        var max = (window.innerWidth / 12) - r ;
+                        sketch.translate(r / 2, r / 2);
 
                         // quarters of the canvas
                         var q1 = max / 4;
@@ -706,7 +720,8 @@ function handleTweets(tweets) {
                         sketch.background(255);
                         sketch.strokeWeight(r);
 
-                        var max = window.innerWidth / 12;
+                        var max = (window.innerWidth / 12) - r ;
+                        sketch.translate(r / 2, r / 2);
 
                         // quarters of the canvas
                         var q1 = max / 4;
@@ -757,7 +772,8 @@ function handleTweets(tweets) {
                         sketch.background(255);
                         sketch.strokeWeight(r);
 
-                        var max = window.innerWidth / 12;
+                        var max = (window.innerWidth / 12) - r ;
+                        sketch.translate(r / 2, r / 2);
 
                         // quarters of the canvas
                         var q1 = max / 4;
@@ -803,7 +819,8 @@ function handleTweets(tweets) {
                         sketch.background(255);
                         sketch.strokeWeight(r);
 
-                        var max = window.innerWidth / 12;
+                        var max = (window.innerWidth / 12) - r ;
+                        sketch.translate(r / 2, r / 2);
 
                         // quarters of the canvas
                         var q1 = max / 4;
@@ -859,7 +876,8 @@ function handleTweets(tweets) {
                         sketch.background(255);
                         sketch.strokeWeight(r);
 
-                        var max = window.innerWidth / 12;
+                        var max = (window.innerWidth / 12) - r ;
+                        sketch.translate(r / 2, r / 2);
 
                         // quarters of the canvas
                         var q1 = max / 4;
@@ -910,7 +928,8 @@ function handleTweets(tweets) {
                         sketch.background(255);
                         sketch.strokeWeight(r);
 
-                        var max = window.innerWidth / 12;
+                        var max = (window.innerWidth / 12) - r ;
+                        sketch.translate(r / 2, r / 2);
 
                         // quarters of the canvas
                         var q1 = max / 4;
@@ -959,7 +978,8 @@ function handleTweets(tweets) {
                         sketch.background(255);
                         sketch.strokeWeight(r);
 
-                        var max = window.innerWidth / 12;
+                        var max = (window.innerWidth / 12) - r ;
+                        sketch.translate(r / 2, r / 2);
 
                         // quarters of the canvas
                         var q1 = max / 4;
@@ -1005,7 +1025,8 @@ function handleTweets(tweets) {
                         sketch.background(255);
                         sketch.strokeWeight(r);
 
-                        var max = window.innerWidth / 12;
+                        var max = (window.innerWidth / 12) - r ;
+                        sketch.translate(r / 2, r / 2);
 
                         // quarters of the canvas
                         var q1 = max / 4;
@@ -1047,7 +1068,8 @@ function handleTweets(tweets) {
                         sketch.background(255);
                         sketch.strokeWeight(r);
 
-                        var max = window.innerWidth / 12;
+                        var max = (window.innerWidth / 12) - r ;
+                        sketch.translate(r / 2, r / 2);
 
                         // quarters of the canvas
                         var q1 = max / 4;
@@ -1093,7 +1115,8 @@ function handleTweets(tweets) {
                         sketch.background(255);
                         sketch.strokeWeight(r);
 
-                        var max = window.innerWidth / 12;
+                        var max = (window.innerWidth / 12) - r ;
+                        sketch.translate(r / 2, r / 2);
 
                         // quarters of the canvas
                         var q1 = max / 4;
@@ -1180,7 +1203,8 @@ function handleTweets(tweets) {
                         sketch.background(255);
                         sketch.strokeWeight(r);
 
-                        var max = window.innerWidth / 12;
+                        var max = (window.innerWidth / 12) - r ;
+                        sketch.translate(r / 2, r / 2);
 
                         // quarters of the canvas
                         var q1 = max / 4;
