@@ -39,7 +39,7 @@ function handleTweets(tweets) {
                         var r = sketch.random(50);
                         sketch.strokeWeight(r);
 
-                        var max = (window.innerWidth / 12) - r ;
+                        var max = (window.innerWidth / 10) - r ;
                         sketch.translate(r / 2, r / 2);
 
                         var x1 = sketch.random(5, max);
@@ -86,7 +86,7 @@ function handleTweets(tweets) {
                         var r = sketch.random(50);
                         sketch.strokeWeight(r);
 
-                        var max = (window.innerWidth / 12) - r ;
+                        var max = (window.innerWidth / 10) - r ;
                         sketch.translate(r / 2, r / 2);  
 
                         // quarters of the canvas                      
@@ -144,7 +144,7 @@ function handleTweets(tweets) {
                         var r = sketch.random(50);
                         sketch.strokeWeight(r);
 
-                        var max = (window.innerWidth / 12) - r ;
+                        var max = (window.innerWidth / 10) - r ;
                         sketch.translate(r / 2, r / 2); 
 
                         var h = sketch.random(5, max);
@@ -177,7 +177,7 @@ function handleTweets(tweets) {
                         var r = sketch.random(50);
                         sketch.strokeWeight(r);
 
-                        var max = (window.innerWidth / 12) - r ;
+                        var max = (window.innerWidth / 10) - r ;
                         sketch.translate(r / 2, r / 2);        
 
                         // quarters of the canvas
@@ -223,7 +223,7 @@ function handleTweets(tweets) {
                         var r = sketch.random(50);
                         sketch.strokeWeight(r);
 
-                        var max = (window.innerWidth / 12) - r ;
+                        var max = (window.innerWidth / 10) - r ;
                         sketch.translate(r / 2, r / 2);
 
                         // quarters of the canvas
@@ -271,7 +271,7 @@ function handleTweets(tweets) {
                         var r = sketch.random(50);
                         sketch.strokeWeight(r);
 
-                        var max = (window.innerWidth / 12) - r ;
+                        var max = (window.innerWidth / 10) - r ;
                         sketch.translate(r / 2, r / 2);
 
                         // quarters of the canvas
@@ -321,7 +321,7 @@ function handleTweets(tweets) {
                         var r = sketch.random(50);
                         sketch.strokeWeight(r);
 
-                        var max = (window.innerWidth / 12) - r ;
+                        var max = (window.innerWidth / 10) - r ;
                         sketch.translate(r / 2, r / 2);
 
                         // quarters of the canvas
@@ -367,7 +367,7 @@ function handleTweets(tweets) {
                         var r = sketch.random(50);
                         sketch.strokeWeight(r);
 
-                        var max = (window.innerWidth / 12) - r ;
+                        var max = (window.innerWidth / 10) - r ;
                         sketch.translate(r / 2, r / 2);
 
                         // quarters of the canvas
@@ -412,7 +412,7 @@ function handleTweets(tweets) {
                         var r = sketch.random(50);
                         sketch.strokeWeight(r);
 
-                        var max = (window.innerWidth / 12) - r ;
+                        var max = (window.innerWidth / 10) - r ;
                         sketch.translate(r / 2, r / 2);
 
                         // quarters of the canvas
@@ -461,7 +461,7 @@ function handleTweets(tweets) {
                         var r = sketch.random(50);
                         sketch.strokeWeight(r);
 
-                        var max = (window.innerWidth / 12) - r ;
+                        var max = (window.innerWidth / 10) - r ;
                         sketch.translate(r / 2, r / 2);
 
                         // quarters of the canvas
@@ -508,7 +508,7 @@ function handleTweets(tweets) {
                         var r = sketch.random(50);
                         sketch.strokeWeight(r);
 
-                        var max = (window.innerWidth / 12) - r ;
+                        var max = (window.innerWidth / 10) - r ;
                         sketch.translate(r / 2, r / 2);
 
                         // quarters of the canvas
@@ -553,7 +553,7 @@ function handleTweets(tweets) {
                         var r = sketch.random(50);
                         sketch.strokeWeight(r);
 
-                        var max = (window.innerWidth / 12) - r ;
+                        var max = (window.innerWidth / 10) - r ;
                         sketch.translate(r / 2, r / 2);
 
                         // quarters of the canvas
@@ -596,7 +596,7 @@ function handleTweets(tweets) {
                         var r = sketch.random(50);
                         sketch.strokeWeight(r);
 
-                        var max = (window.innerWidth / 12) - r ;
+                        var max = (window.innerWidth / 10) - r ;
                         sketch.translate(r / 2, r / 2);
 
                         // quarters of the canvas
@@ -644,7 +644,7 @@ function handleTweets(tweets) {
                         var r = sketch.random(50);
                         sketch.strokeWeight(r);
 
-                        var max = (window.innerWidth / 12) - r ;
+                        var max = (window.innerWidth / 10) - r ;
                         sketch.translate(r / 2, r / 2);
 
                         // quarters of the canvas
@@ -689,7 +689,7 @@ function handleTweets(tweets) {
                         var r = sketch.random(50);
                         sketch.strokeWeight(r);
 
-                        var max = (window.innerWidth / 12) - r ;
+                        var max = (window.innerWidth / 10) - r ;
                         sketch.translate(r / 2, r / 2);
 
                         // quarters of the canvas
@@ -729,7 +729,7 @@ function handleTweets(tweets) {
                         var r = sketch.random(50);
                         sketch.strokeWeight(r);
 
-                        var max = (window.innerWidth / 12) - r ;
+                        var max = (window.innerWidth / 10) - r ;
                         sketch.translate(r / 2, r / 2);
 
                         // quarters of the canvas
@@ -782,7 +782,7 @@ function handleTweets(tweets) {
                         var r = sketch.random(50);
                         sketch.strokeWeight(r);
 
-                        var max = (window.innerWidth / 12) - r ;
+                        var max = (window.innerWidth / 10) - r ;
                         sketch.translate(r / 2, r / 2);
 
                         // quarters of the canvas
@@ -830,7 +830,7 @@ function handleTweets(tweets) {
                         var r = sketch.random(50);
                         sketch.strokeWeight(r);
 
-                        var max = (window.innerWidth / 12) - r ;
+                        var max = (window.innerWidth / 10) - r ;
                         sketch.translate(r / 2, r / 2);
 
                         // quarters of the canvas
@@ -888,7 +888,7 @@ function handleTweets(tweets) {
                         var r = sketch.random(50);
                         sketch.strokeWeight(r);
 
-                        var max = (window.innerWidth / 12) - r ;
+                        var max = (window.innerWidth / 10) - r ;
                         sketch.translate(r / 2, r / 2);
 
                         // quarters of the canvas
@@ -941,7 +941,7 @@ function handleTweets(tweets) {
                         var r = sketch.random(50);
                         sketch.strokeWeight(r);
 
-                        var max = (window.innerWidth / 12) - r ;
+                        var max = (window.innerWidth / 10) - r ;
                         sketch.translate(r / 2, r / 2);
 
                         // quarters of the canvas
@@ -992,7 +992,7 @@ function handleTweets(tweets) {
                         var r = sketch.random(50);
                         sketch.strokeWeight(r);
 
-                        var max = (window.innerWidth / 12) - r ;
+                        var max = (window.innerWidth / 10) - r ;
                         sketch.translate(r / 2, r / 2);
 
                         // quarters of the canvas
@@ -1040,7 +1040,7 @@ function handleTweets(tweets) {
                         var r = sketch.random(50);
                         sketch.strokeWeight(r);
 
-                        var max = (window.innerWidth / 12) - r ;
+                        var max = (window.innerWidth / 10) - r ;
                         sketch.translate(r / 2, r / 2);
 
                         // quarters of the canvas
@@ -1084,7 +1084,7 @@ function handleTweets(tweets) {
                         var r = sketch.random(50);
                         sketch.strokeWeight(r);
 
-                        var max = (window.innerWidth / 12) - r ;
+                        var max = (window.innerWidth / 10) - r ;
                         sketch.translate(r / 2, r / 2);
 
                         // quarters of the canvas
@@ -1132,7 +1132,7 @@ function handleTweets(tweets) {
                         var r = sketch.random(50);
                         sketch.strokeWeight(r);
 
-                        var max = (window.innerWidth / 12) - r ;
+                        var max = (window.innerWidth / 10) - r ;
                         sketch.translate(r / 2, r / 2);
 
                         // quarters of the canvas
@@ -1177,7 +1177,7 @@ function handleTweets(tweets) {
                         var r = sketch.random(50);
                         sketch.strokeWeight(r);
 
-                        var max = (window.innerWidth / 12) - r ;
+                        var max = (window.innerWidth / 10) - r ;
                         sketch.translate(r / 2, r / 2);
 
                         // quarters of the canvas
@@ -1223,7 +1223,7 @@ function handleTweets(tweets) {
                         var r = sketch.random(50);
                         sketch.strokeWeight(r);
 
-                        var max = (window.innerWidth / 12) - r ;
+                        var max = (window.innerWidth / 10) - r ;
                         sketch.translate(r / 2, r / 2);
 
                         // quarters of the canvas
