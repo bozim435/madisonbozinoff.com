@@ -750,7 +750,7 @@ function handleTweets(tweets) {
                         sketch.line(xA, yC, xD, yC);
 
                         // height and width of arc
-                        var w = xD - xA;
+                        var w = max - xD;
                         var h = yC - yA;
                         var yH = (h / 2) + yA;
 
@@ -902,7 +902,7 @@ function handleTweets(tweets) {
                         var yB = sketch.random(q3, max);
                         var yC = ((yB - yA) / 2) + yA;
                         var xD = sketch.random(q2, max);
-                        var w = xD - xA;
+                        var w = max - xD;
                         var h = yC - yA;
                         var yH = (h / 2) + yA;
                         var yI = (h / 2) + yA + h;

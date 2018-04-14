@@ -699,7 +699,7 @@ function handleTweets(tweets) {
                         sketch.line(xA, yC, xD, yC);
 
                         // height and width of arc
-                        var w = xD - xA;
+                        var w = max - xD;
                         var h = yC - yA;
                         var yH = (h / 2) + yA;
 
@@ -842,7 +842,7 @@ function handleTweets(tweets) {
                         var yB = sketch.random(q3, max);
                         var yC = ((yB - yA) / 2) + yA;
                         var xD = sketch.random(q2, max);
-                        var w = xD - xA;
+                        var w = max - xD;
                         var h = yC - yA;
                         var yH = (h / 2) + yA;
                         var yI = (h / 2) + yA + h;
@@ -1100,7 +1100,8 @@ function handleTweets(tweets) {
 
                         sketch.background(255);
 
-                        var max = window.innerWidth / 11;
+                        var max = (window.innerWidth / 12) - r ;
+                        sketch.translate(r / 2, r / 2);
 
                         // quarters of the canvas
                         var q1 = max / 4;
