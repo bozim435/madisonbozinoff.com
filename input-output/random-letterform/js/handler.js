@@ -1100,8 +1100,7 @@ function handleTweets(tweets) {
 
                         sketch.background(255);
 
-                        var max = (window.innerWidth / 12) - r ;
-                        sketch.translate(r / 2, r / 2);
+                        var max = (window.innerWidth / 12);
 
                         // quarters of the canvas
                         var q1 = max / 4;
