@@ -1065,18 +1065,17 @@ function handleTweets(tweets) {
                         var q2 = max / 2;
                         var q3 = (max / 4) * 3;
 
-                        // coordinates
-                        var x1 = sketch.random(5, max);
-                        var y1 = sketch.random(q1, max);
-                        var x2 = sketch.random(5, x1);
-                        var x3 = sketch.random(x1, max);
-                        var y = sketch.random(5, q1);
-                        var yb = sketch.random(y1, max);
+                        // coordinates  
+                        var xA = sketch.random(5, q2);
+                        var yA = sketch.random(5, q1);
+                        var xC = sketch.random(q2, max);
+                        var xB = max - xA;
+                        var yB = max - yA;
+                        var xD = max - xC;
 
                         // sketch.lines
-                        sketch.line(x1, y1, x2, y);
-                        sketch.line(x1, y1, x3, y);
-                        sketch.line(x1, y1, x1, yb);   
+                        sketch.line(xA, yA, xB, yB);
+                        sketch.line(xC, yA, xD, yB);  
 
                     }
 
@@ -1101,7 +1100,7 @@ function handleTweets(tweets) {
 
                         sketch.background(255);
 
-                        var max = window.innerWidth / 12;
+                        var max = window.innerWidth / 11;
 
                         // quarters of the canvas
                         var q1 = max / 4;
