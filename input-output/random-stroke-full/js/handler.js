@@ -28,7 +28,7 @@ function handleTweets(tweets) {
 
                 setInterval(function() {
 
-                   r = Math.random() * 80;
+                   r = Math.random() * 100;
 
                 }, 500);
 
