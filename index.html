@@ -22,7 +22,7 @@
 
 	<div id="content">
 		<p>
-			Deadline countdown: <span id=countdown></span>
+			Portfolio countdown <span id=countdown></span>
 		</p>
 	</div>
 
@@ -39,8 +39,7 @@
 		    var m = Math.floor((difference % (1000 * 60 * 60)) / (1000 * 60));
 		    var s = Math.floor((difference % (1000 * 60)) / 1000);
 		    
-		    document.getElementById("countdown").innerHTML = h + " hours, "
-		    + m + " minutes, " + s + " seconds ";
+		    document.getElementById("countdown").innerHTML = h + " hours, " + m + " minutes, " + s + " seconds ";
 		    
 		}, 1000);
 
