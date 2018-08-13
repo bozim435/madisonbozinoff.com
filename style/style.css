@@ -1,6 +1,6 @@
 img {
 	
-	width: 400px;
+	width: 100%;
 	display: block;
 
 }
@@ -9,5 +9,11 @@ h1, p {
 
 	font-size: 16px;
 	font-weight: normal;
+
+}
+
+#container {
+
+	max-width: 80%;
 
 }
