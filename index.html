@@ -2,12 +2,53 @@
 <html>
 <head>
 
-	<title>Hello</title>
+	<title>Madison Bozinoff</title>
 
 </head>
 <body>
 
-	<p>Hello</p>
+	<div>
+		<img src="henlo.jpg" width="350px">
+
+	</div>
+
+	<div id="info">
+		<p>
+			Madison Bozinoff
+			</br>
+			madison.bozinoff@gmail.com
+		</p>
+	</div>
+
+	<div id="content">
+		<p>
+			Deadline countdown: <span id=countdown></span>
+		</p>
+	</div>
+
+	<script>
+
+		var deadline = new Date("Aug 15, 2018 24:00:00").getTime();
+
+		var x = setInterval(function() {
+
+		    var current = new Date().getTime();
+		    var difference = deadline - current;		    
+
+		    var h = Math.floor(difference / (1000 * 60 * 60));
+		    var m = Math.floor((difference % (1000 * 60 * 60)) / (1000 * 60));
+		    var s = Math.floor((difference % (1000 * 60)) / 1000);
+		    
+		    document.getElementById("countdown").innerHTML = h + " hours, "
+		    + m + " minutes, " + s + " seconds ";
+		    
+		}, 1000);
+
+	</script>
+
+</body>
+</html>
+
 
 </body>
 </html>
