@@ -1,8 +1,22 @@
+* {
+
+	font-family: serif;
+
+}
+
+body {
+
+	background: lightcyan;
+
+}
+
 img {
 	
-	width: 100%;
+	width: 350px;
 	display: block;
-	padding: 20px;
+	margin-top: 10px;
+	background: white;
+	border: solid 1px gainsboro;
 
 }
 
@@ -15,6 +29,12 @@ h1, p {
 
 #container {
 
-	max-width: 80%;
+	max-width: 70%;
+
+}
+
+#container > img {
+
+
 
 }
