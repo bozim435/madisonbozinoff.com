@@ -8,26 +8,10 @@
 body {
 
 	font-family: arial;
-	font-size: 16px;
+	font-size: 45px;
 	line-height: 1.24em;
 	letter-spacing: 0.025em;
-	background: lightcyan;
-
-}
-
-img {
-	
-	width: 16em;
-	display: inline-block;
-	margin-top: 0.5em;
-	background: white;
-	border: solid 1px gainsboro;
-
-}
-
-#container {
-
-	max-width: 70%;
+	background: gainsboro;
 
 }
 
@@ -46,29 +30,41 @@ img {
 
 #content {
 
-	padding: 2em;
+	margin: 0.8em 1.6em;
 	color: black;
+
+}
+
+.blocks {
+
+	margin: 0.8em;
+	display: inline-block;
 
 }
 
 .size {
 
 	display: inline-block;
-	margin: 1em;
+	height: 6em;
 
 }
 
 .size > img {
 
-	max-width: 15em;
-	max-height: auto;
+	margin: auto;
+	max-width: 100%;
+	max-height: 100%;
+	display: block;
+	object-fit: contain;
+	outline: solid 0.1em gainsboro;
 
 }
 
-.size > p {
+.blocks > p {
 
 	width: 100%;
-	padding-top: 1em;
+	padding-top: 0.25em	;
 	text-align: center;
+	/*background: red;*/
 
 }
