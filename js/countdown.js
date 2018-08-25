@@ -1,6 +1,6 @@
 /*** Coundown ***/
 
-const deadline = new Date("Aug 19, 2018 24:00:00").getTime();
+const deadline = new Date("Aug 27, 2018 24:00:00").getTime();
 
 setInterval(function() {
 
@@ -13,11 +13,5 @@ setInterval(function() {
     let s = Math.floor((difference % (1000 * 60)) / 1000);
     
     document.getElementById("countdown").innerHTML = h + " hours, " + m + " minutes, " + s + " seconds ";
-
-    if (difference <= 0) {
-
-    	alert("Your bitch ass better be done >:o");
-
-    }
     
 }, 1000)

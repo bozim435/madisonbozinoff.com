@@ -1,3 +1,13 @@
+/*** General ***/
+
+@font-face {
+
+	font-family: "GrotesqueMT";
+	src: url("../assets/fonts/grotesque-mt-regular.otf"
+		);
+
+}
+
 * {
 
 	margin: 0 auto;
@@ -7,37 +17,57 @@
 
 body {
 
-	font-family: arial;
-	font-size: 45px;
-	line-height: 1.24em;
-	letter-spacing: 0.025em;
-	background: gainsboro;
+	font-family: GrotesqueMT;
+	font-weight: normal;
+	font-size: 22px;
+	line-height: 28px;
+	background: lightgrey;
+	margin: 32px;
+	color: white;
 
 }
 
-#info {
+a {
 
-	top: 0;
-	left: 0;
-	position: fixed;
-	padding: 1.4em 2em;
-	z-index: 1;
-	font-size: 1em;
-	background: transparent;
-	color: black;
+	text-decoration: none;
+	color: inherit;
+
+}
+
+h1 {
+
+	font-size: inherit;
+	font-weight: normal;
+
+}
+
+p {
+
+	text-indent: 32px;
+
+}
+
+p:first-of-type {
+
+	text-indent: 0;
+
+}
+
+span {
+
+	font-size: 18px;
 
 }
 
 #content {
 
-	margin: 0.8em 1.6em;
-	color: black;
+	margin: 32px 16px;
 
 }
 
 .blocks {
 
-	margin: 0.8em;
+	margin: 0.5em;
 	display: inline-block;
 
 }
@@ -45,7 +75,14 @@ body {
 .size {
 
 	display: inline-block;
-	height: 6em;
+	height: 88px;
+
+
+}
+
+img {
+
+	background: white;
 
 }
 
@@ -56,15 +93,38 @@ body {
 	max-height: 100%;
 	display: block;
 	object-fit: contain;
-	outline: solid 0.1em gainsboro;
 
 }
 
-.blocks > p {
 
-	width: 100%;
-	padding-top: 0.25em	;
-	text-align: center;
-	/*background: red;*/
+#container > img {
+
+	width: 700px;
+	display: block;
+	justify-content: center;
+
+}
+
+#container > p {
+
+	display: inline-block;
+	max-width: 70%;
+
+}
+
+
+/*** IO ***/
+
+#twitter > a {
+
+	display: inline-block;
+
+
+}
+
+#pen-plotter > img {
+
+	width: 500px;
+	display: inline-block;
 
 }
