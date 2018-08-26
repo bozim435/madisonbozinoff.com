@@ -75,21 +75,21 @@ shuffle(arr);
 
 for (let i = 0; i < arr.length; i++) {
 
-	// let n = Math.floor(Math.random() * arr[i].icons.length);
 	let j = i + 1;
-
-	// content.innerHTML += '<div class="blocks"><div class="size"><img src="assets/' + arr[i].icons[n] + '.png"></div><p>' + j + ' ' + arr[i].heading + '</p><p>' + arr[i].descrip + '</p></div>';
 
 	// content.innerHTML += '<div class="blocks"><a href="' + arr[i].path + '"><div class="size"><img src="assets/' + arr[i].icons[n] + '.png"></div></a></div>';
 
+	// content.innerHTML += '<div class="blocks"><div class="size"><img src="assets/' + arr[i].icons[n] + '.png"></div><p>' + j + ' ' + arr[i].heading + '</p><p>' + arr[i].descrip + '</p></div>';
+
 	for (let n = 0; n < arr[i].icons.length; n++) {
 
-		content.innerHTML += '<div class="blocks"><a href="' + arr[i].path + '"><div class="size"><img src="assets/' + arr[i].icons[n] + '.png"></div></a></div>';
+		// content.innerHTML += '<div class="blocks"><a href="' + arr[i].path + '"><div class="size"><img src="assets/' + arr[i].icons[n] + '.png"></div></a></div>';
+
+		content.innerHTML += '<div class="blocks"><div class="size"><img src="assets/' + arr[i].icons[n] + '.png"></div></div>';
 
 	}
 
-	content.innerHTML += "</br>"
-
+	content.innerHTML += "</br>";
 
 }
 
@@ -109,5 +109,23 @@ function shuffle(a) {
     }
 
     return a;
+
+}
+
+/*** Toggle Size ***/
+
+content.onclick = function(event) {
+
+	let target = event.target;
+
+	if (target.style.height !== "450px") {
+
+        target.style.height = "450px";
+
+    } else {
+
+        target.style.height = "88px";
+
+    }
 
 }

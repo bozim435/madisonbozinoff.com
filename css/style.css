@@ -3,7 +3,7 @@
 @font-face {
 
 	font-family: "GrotesqueMT";
-	src: url("../assets/fonts/grotesque-mt-regular.otf"
+	src: url("../assets/fonts/grotesque-mt-bold.ttf"
 		);
 
 }
@@ -18,10 +18,10 @@
 body {
 
 	font-family: GrotesqueMT;
-	font-weight: normal;
+	font-weight: bold;
 	font-size: 22px;
 	line-height: 28px;
-	background: lightgrey;
+	background: #efefef;
 	margin: 32px;
 	color: white;
 
@@ -72,21 +72,28 @@ span {
 
 }
 
-.size {
+/*.size {
 
 	display: inline-block;
 	height: 88px;
 
 
-}
+}*/
 
 img {
 
 	background: white;
+	height: 88px;
 
 }
 
-.size > img {
+img:hover {
+
+	cursor: crosshair;
+
+}
+
+/*.size > img {
 
 	margin: auto;
 	max-width: 100%;
@@ -94,12 +101,12 @@ img {
 	display: block;
 	object-fit: contain;
 
-}
+}*/
 
 
 #container > img {
 
-	width: 700px;
+	width: 500px;
 	display: block;
 	justify-content: center;
 
@@ -109,6 +116,7 @@ img {
 
 	display: inline-block;
 	max-width: 70%;
+	justify-content: left;
 
 }
 
