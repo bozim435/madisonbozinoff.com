@@ -2,28 +2,47 @@
 
 @font-face {
 
+	font-family: "TheMeaningofFlow";
+	src: url("../assets/fonts/TheMeaningofFlowers.ttf"
+		);
+
+}
+
+@font-face {
+
 	font-family: "GrotesqueMT";
-	src: url("../assets/fonts/grotesque-mt-bold.ttf"
+	font-weight: normal;
+	src: url("../assets/fonts/grotesque-mt-regular.otf"
+		);
+
+}
+
+@font-face {
+
+	font-family: "GrotesqueMT";
+	font-weight: bold;
+	src: url("../assets/fonts/grotesque-mt-bold.otf"
 		);
 
 }
 
 * {
 
-	margin: 0 auto;
-	padding: 0 auto;
+	margin: 0;
+	padding: 0;
 
 }
 
 body {
 
 	font-family: GrotesqueMT;
-	font-weight: bold;
+	font-weight: normal;
 	font-size: 22px;
 	line-height: 28px;
+	letter-spacing: -0.01em;
 	background: #efefef;
 	margin: 32px;
-	color: white;
+	color: lightgrey;
 
 }
 
@@ -37,21 +56,26 @@ a {
 h1 {
 
 	font-size: inherit;
-	font-weight: normal;
+	font-weight: inherit;
+	/*text-transform: uppercase;*/
 
 }
 
 p {
 
-	text-indent: 32px;
+	
+	display: inline-block;
+	/*padding: 0.5em 0;*/
+	max-width: 66%;
+	text-indent: 38px;
 
 }
 
-p:first-of-type {
+/*p:first-of-type {
 
 	text-indent: 0;
 
-}
+}*/
 
 span {
 
@@ -62,47 +86,24 @@ span {
 #content {
 
 	margin: 32px 16px;
+	width: 100%
 
 }
 
-.blocks {
+#content > img {
 
-	margin: 0.5em;
-	display: inline-block;
-
-}
-
-/*.size {
-
-	display: inline-block;
+	margin: 0.6em 1.2em 0.6em 0;
 	height: 88px;
-
-
-}*/
-
-img {
-
+	display: inline-block;
 	background: white;
-	height: 88px;
 
 }
 
-img:hover {
+#content > img:hover {
 
-	cursor: crosshair;
+	cursor: pointer;
 
 }
-
-/*.size > img {
-
-	margin: auto;
-	max-width: 100%;
-	max-height: 100%;
-	display: block;
-	object-fit: contain;
-
-}*/
-
 
 #container > img {
 
@@ -114,7 +115,7 @@ img:hover {
 
 #container > p {
 
-	display: inline-block;
+	display: block;
 	max-width: 70%;
 	justify-content: left;
 
