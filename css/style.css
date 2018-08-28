@@ -86,6 +86,6 @@ span {
 
 #content > img:hover {
 
-	cursor: crosshair;
+	cursor: pointer;
 
 }
