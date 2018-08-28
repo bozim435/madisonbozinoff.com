@@ -49,7 +49,7 @@ let RWP = {
 
 	icons: ["RWP-01-01.png", "RWP-01-02.png", "RWP-01-03.png", "RWP-02-01.png", "RWP-02-02.png"],
 	heading: "Microsites from \"Reading without Pages\" class at Parsons",
-	descrip: "1. An instructional site for using CSS Grids that is structured within a series of nested grids. Users can toggle the visibility of black girdlines that describe of the architecture of the page.</br> 2. Alternate reading experience for \"Something is Wrong on the Internet\" by James Bridle that cuts and remixes the article in a similar way to the videos he writes about do.",
+	descrip: "1. An instructional site for using CSS Grids that is structured within a series of nested grids. Users can toggle the visibility of black girdlines that describe of the architecture of the page.</br> 2. Alternate reading experience for \"Something is Wrong on the Internet\" by James Bridle that cuts and remixes the article in a similar way to the videos he writes about.",
 	path: "RWP/RWP.html"
 
 }
