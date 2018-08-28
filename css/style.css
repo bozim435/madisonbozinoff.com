@@ -4,16 +4,7 @@
 
 	font-family: "GrotesqueMT";
 	font-weight: normal;
-	src: url("../assets/fonts/grotesque-mt-regular.otf"
-		);
-
-}
-
-@font-face {
-
-	font-family: "GrotesqueMT";
-	font-weight: bold;
-	src: url("../assets/fonts/grotesque-mt-bold.otf"
+	src: url("../assets/fonts/GrotesqueMT.otf"
 		);
 
 }
