@@ -65,9 +65,9 @@ let SB = {
 
 let OTH = {
 
-	icons: ["OTH-01.gif", "OTH-02.png", "OTH-03.png", "OTH-04.gif"],
+	icons: ["OTH-01.gif", "OTH-02.png", "OTH-04.gif"],
 	heading: "Computational Form",
-	descrip: "1. Feather generated with Turtle Graphics </br> 2. Markov Chain Webding Landscapes </br> 3. Checkbox Map generated using Perlin Noise </br> 4. Perlin Noise typeface",
+	descrip: "1. Feather generated with Turtle Graphics </br> 2. Markov Chain Webding Landscapes </br> 3. Perlin Noise typeface",
 	path: "OTH/OTH.html"
 
 }
@@ -88,7 +88,7 @@ for (let i = 0; i < arr.length; i++) {
 
 	}
 
-	content.innerHTML += '</br><p>' + arr[i].heading + '</br>' + arr[i].descrip + '</p></br></br>';
+	content.innerHTML += '</br></br><p>' + arr[i].heading + '</br>' + arr[i].descrip + '</p></br></br>';
 
 }
 
@@ -117,9 +117,9 @@ content.onclick = function(event) {
 
 	let target = event.target;
 
-	if (target.style.height !== "450px") {
+	if (target.style.height !== "410px") {
 
-        target.style.height = "450px";
+        target.style.height = "410px";
 
     } else {
 
