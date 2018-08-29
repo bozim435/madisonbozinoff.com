@@ -22,7 +22,7 @@ let LFL = {
 
 	icons: ["LFL-Location-01.png", "LFL-Location-02.png","LFL-01.png", "LFL-02.png", "LFL-03.png", "LFL-04.png", "LFL-05.png", "LFL-Process-01.png", "LFL-Process-02.png", "LFL-Process-03.png", "LFL-AppStore-01.png", "LFL-AppStore-02.png"],
 	heading: "Little Free Library",
-	descrip: "An app for collecting quotes found in the Little Free Library of the Green Oasis community garden. The app creates a collectively currated selection of quotes from books that may or may not still be in the library. Submitted quotes are \"stamped\" with a shadow image that represents the time of day they were submitted. <a href='https://invis.io/7YNROO06FJB' target='blank'>Visit prototype<a/>",
+	descrip: "An app for collecting quotes found in the Little Free Library of the Green Oasis community garden. The Little Free Library app creates a collectively currated selection of quotes from books that may or may not still be in the library. Submitted quotes are \"stamped\" with a shadow image that represents the time of day they were submitted. <a href='https://invis.io/7YNROO06FJB' target='blank'>Visit prototype<a/>", /* Rework Last Sentence */
 	path: "LFL/LFL.html"
 
 }
