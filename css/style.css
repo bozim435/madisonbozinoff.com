@@ -26,13 +26,12 @@ body {
 	background: #b7b8b9;
 	margin: 32px;
 	color: white;
-	/* #b7b8b9 */
 
 }
 
 a {
 
-	text-decoration: none;
+	text-decoration: underline;
 	color: inherit;
 
 }
@@ -41,7 +40,6 @@ h1 {
 
 	font-size: inherit;
 	font-weight: inherit;
-	/*text-transform: uppercase;*/
 
 }
 
@@ -54,12 +52,6 @@ p {
 	text-indent: 38px;
 
 }
-
-/*p:first-of-type {
-
-	text-indent: 0;
-
-}*/
 
 span {
 
@@ -80,7 +72,6 @@ span {
 	height: 88px;
 	display: inline-block;
 	background: white;
-	/*outline: solid 2px white;*/
 
 }
 
