@@ -28,13 +28,13 @@ function handleTweets(tweets) {
 
                 setInterval(function() {
 
-                   r = Math.random() * 100;
+                   r = Math.random() * 60;
 
                 }, 500);
 
                 console.log(r);
 
-                var s = function( sketch ) {
+                var s = function(sketch) {
 
                     sketch.setup = function() {
 
@@ -79,7 +79,7 @@ function handleTweets(tweets) {
 
             if (arrayOfStrings[i] === 'b' || arrayOfStrings[i] === 'B') {
 
-                var s = function( sketch ) {
+                var s = function(sketch) {
 
                     sketch.setup = function() {
 
@@ -135,7 +135,7 @@ function handleTweets(tweets) {
 
             if (arrayOfStrings[i] === 'c' || arrayOfStrings[i] === 'C') {
 
-                var s = function( sketch ) {
+                var s = function(sketch) {
 
                     sketch.setup = function() {
 
@@ -167,7 +167,7 @@ function handleTweets(tweets) {
 
             if (arrayOfStrings[i] === 'd' || arrayOfStrings[i] === 'D') {
 
-                var s = function( sketch ) {
+                var s = function(sketch) {
 
                     sketch.setup = function() {
 
@@ -212,7 +212,7 @@ function handleTweets(tweets) {
 
             if (arrayOfStrings[i] === 'e' || arrayOfStrings[i] === 'E') {
 
-                var s = function( sketch ) {
+                var s = function(sketch) {
 
                     sketch.setup = function() {
 
@@ -258,7 +258,7 @@ function handleTweets(tweets) {
 
             if (arrayOfStrings[i] === 'f' || arrayOfStrings[i] === 'F') {
 
-                var s = function( sketch ) {
+                var s = function(sketch) {
 
                     sketch.setup = function() {
 
@@ -307,7 +307,7 @@ function handleTweets(tweets) {
 
             if (arrayOfStrings[i] === 'g' || arrayOfStrings[i] === 'G') {
 
-                var s = function( sketch ) {
+                var s = function(sketch) {
 
                     sketch.setup = function() {
 
@@ -352,7 +352,7 @@ function handleTweets(tweets) {
 
             if (arrayOfStrings[i] === 'h' || arrayOfStrings[i] === 'H') {
 
-                var s = function( sketch ) {
+                var s = function(sketch) {
 
                     sketch.setup = function() {
 
@@ -396,7 +396,7 @@ function handleTweets(tweets) {
 
             if (arrayOfStrings[i] === 'i' || arrayOfStrings[i] === 'I') {
 
-                var s = function( sketch ) {
+                var s = function(sketch) {
 
                     sketch.setup = function() {
 
@@ -444,7 +444,7 @@ function handleTweets(tweets) {
 
             if (arrayOfStrings[i] === 'j' || arrayOfStrings[i] === 'J') {
 
-                var s = function( sketch ) {
+                var s = function(sketch) {
 
                     sketch.setup = function() {
 
@@ -490,7 +490,7 @@ function handleTweets(tweets) {
 
             if (arrayOfStrings[i] === 'k' || arrayOfStrings[i] === 'K') {
 
-                var s = function( sketch ) {
+                var s = function(sketch) {
 
                     sketch.setup = function() {
 
@@ -534,7 +534,7 @@ function handleTweets(tweets) {
 
             if (arrayOfStrings[i] === 'l' || arrayOfStrings[i] === 'L') {
 
-                var s = function( sketch ) {
+                var s = function(sketch) {
 
                     sketch.setup = function() {
 
@@ -576,7 +576,7 @@ function handleTweets(tweets) {
 
             if (arrayOfStrings[i] === 'm' || arrayOfStrings[i] === 'M') {
 
-                var s = function( sketch ) {
+                var s = function(sketch) {
 
                     sketch.setup = function() {
 
@@ -623,7 +623,7 @@ function handleTweets(tweets) {
 
             if (arrayOfStrings[i] === 'n' || arrayOfStrings[i] === 'N') {
 
-                var s = function( sketch ) {
+                var s = function(sketch) {
 
                     sketch.setup = function() {
 
@@ -667,7 +667,7 @@ function handleTweets(tweets) {
 
             if (arrayOfStrings[i] === 'o' || arrayOfStrings[i] === 'O') {
 
-                var s = function( sketch ) {
+                var s = function(sketch) {
 
                     sketch.setup = function() {
 
@@ -706,7 +706,7 @@ function handleTweets(tweets) {
 
             if (arrayOfStrings[i] === 'p' || arrayOfStrings[i] === 'P') {
 
-                var s = function( sketch ) {
+                var s = function(sketch) {
 
                     sketch.setup = function() {
 
@@ -758,7 +758,7 @@ function handleTweets(tweets) {
 
             if (arrayOfStrings[i] === 'q' || arrayOfStrings[i] === 'Q') {
 
-                var s = function( sketch ) {
+                var s = function(sketch) {
 
                     sketch.setup = function() {
 
@@ -805,7 +805,7 @@ function handleTweets(tweets) {
 
             if (arrayOfStrings[i] === 'r' || arrayOfStrings[i] === 'R') {
 
-                var s = function( sketch ) {
+                var s = function(sketch) {
 
                     sketch.setup = function() {
 
@@ -862,7 +862,7 @@ function handleTweets(tweets) {
 
             if (arrayOfStrings[i] === 's' || arrayOfStrings[i] === 'S') {
 
-                var s = function( sketch ) {
+                var s = function(sketch) {
 
                     sketch.setup = function() {
 
@@ -914,7 +914,7 @@ function handleTweets(tweets) {
 
             if (arrayOfStrings[i] === 't' || arrayOfStrings[i] === 'T') {
 
-                var s = function( sketch ) {
+                var s = function(sketch) {
 
                     sketch.setup = function() {
 
@@ -964,7 +964,7 @@ function handleTweets(tweets) {
 
             if (arrayOfStrings[i] === 'u' || arrayOfStrings[i] === 'U') {
 
-                var s = function( sketch ) {
+                var s = function(sketch) {
 
                     sketch.setup = function() {
 
@@ -1011,7 +1011,7 @@ function handleTweets(tweets) {
 
             if (arrayOfStrings[i] === 'v' || arrayOfStrings[i] === 'V') {
 
-                var s = function( sketch ) {
+                var s = function(sketch) {
 
                     sketch.setup = function() {
 
@@ -1054,7 +1054,7 @@ function handleTweets(tweets) {
 
             if (arrayOfStrings[i] === 'w' || arrayOfStrings[i] === 'W') {
 
-                var s = function( sketch ) {
+                var s = function(sketch) {
 
                     sketch.setup = function() {
 
@@ -1101,7 +1101,7 @@ function handleTweets(tweets) {
 
             if (arrayOfStrings[i] === 'x' || arrayOfStrings[i] === 'X') {
 
-                var s = function( sketch ) {
+                var s = function(sketch) {
 
                     sketch.setup = function() {
 
@@ -1145,7 +1145,7 @@ function handleTweets(tweets) {
 
             if (arrayOfStrings[i] === 'y' || arrayOfStrings[i] === 'Y') {
 
-                var s = function( sketch ) {
+                var s = function(sketch) {
 
                     sketch.setup = function() {
 
@@ -1190,7 +1190,7 @@ function handleTweets(tweets) {
 
             if (arrayOfStrings[i] === 'z' || arrayOfStrings[i] === 'Z') {
 
-                var s = function( sketch ) {
+                var s = function(sketch) {
 
                     sketch.setup = function() {
 
@@ -1233,7 +1233,7 @@ function handleTweets(tweets) {
 
             if (arrayOfStrings[i] === ' ') {
 
-                var s = function( sketch ) {
+                var s = function(sketch) {
 
                     sketch.setup = function() {
 
