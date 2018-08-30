@@ -29,7 +29,7 @@ let LFL = {
 
 let Mat = {
 
-	icons: ["Mat-01.png", "Mat-02.png", "Mat-03.png", "Mat-04.png", "Mat-05.png", "Mat-06.png", "Mat-07.png"],
+	icons: ["Mat-01.png", "Mat-03.png", "Mat-11.png", "Mat-04.png", "Mat-05.png", "Mat-06.png", "Mat-07.png", "Mat-08.png", "Mat-10.png"],
 	heading: "Matter",
 	descrip: "Matter is an online publication and research project centered on the themes of media and memory. The site acts as a catalogue of ideas that explore these themes; such as archiving, collective memory, and memory in the digital age. Each article on the site has a programmed expiration date and fades away until it is erased and replaced with new content. <a href='https://madboz.github.io/reading-without-pages/matter' target='blank'>Visit Matter</a>",
 	path: "matter/matter.html"
@@ -47,7 +47,7 @@ let RGB = {
 
 let RWP = {
 
-	icons: ["RWP-01-01.png", "RWP-01-02.png", "RWP-01-03.png", "RWP-02-01.png", "RWP-02-02.png"],
+	icons: ["RWP-01-01.png", "RWP-01-02.png", "RWP-01-03.png", "RWP-01-04.png" , "RWP-02-01.png", /*"RWP-02-02.png",*/ "RWP-02-03.png", "RWP-02-04.png"],
 	heading: "Microsites from \"Reading without Pages\" class at Parsons",
 	descrip: "1. An instructional site for using CSS Grids that is structured within a series of nested grids. Users can toggle the visibility of black gridlines that describe the architecture of the page. <a href='https://madboz.github.io/reading-without-pages/demo' target='blank'>Visit site</a> </br> 2. Alternate reading experience for \"Something is Wrong on the Internet\" by James Bridle that cuts and remixes the article in a similar way to the videos he writes about. <a href='https://madboz.github.io/reading-without-pages/piece' target='blank'>Visit site</a>", /* Fix this sentence */
 	path: "RWP/RWP.html"
