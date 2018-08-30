@@ -1,6 +1,6 @@
 /*** Randomize Layout ***/
 
-let IO1 = {
+var IO1 = {
 	
 	icons: ["IO-TW-01.png", /*"IO-TW-04.png", "IO-TW-08.png",*/ "IO-TW-10.png", "IO-TW-05-02.png", "IO-PP-01.png", "IO-PP-02.png", "IO-PP-03.png", "IO-PP-04.png", "IO-PP-05.png", "IO-PP-06.png", "IO-PP-07.png", "IO-PP-08.png", "IO-PP-09.png", "IO-PP-10.png"],
 	heading: "Input Output 1",
@@ -9,7 +9,7 @@ let IO1 = {
 
 }
 
-let IO2 = {
+var IO2 = {
 	
 	icons: ["IO-TW-10-02.png", "IO-WB-A.gif", "IO-WB-B.gif", "IO-WB-C.gif", "IO-WB-04.png", "IO-WB-05.png", "IO-WB-06.png", "IO-WB-01.gif", "IO-WB-02.gif", "IO-WB-03.gif"],
 	heading: "Input Output 2",
@@ -18,7 +18,7 @@ let IO2 = {
 
 }
 
-let LFL = {
+var LFL = {
 
 	icons: ["LFL-Location-01.png", "LFL-Location-02.png","LFL-01.png", "LFL-02.png", "LFL-03.png", "LFL-04.png", "LFL-05.png", "LFL-Process-01.png", "LFL-Process-02.png", "LFL-Process-03.png", "LFL-AppStore-01.png", "LFL-AppStore-02.png"],
 	heading: "Little Free Library",
@@ -27,7 +27,7 @@ let LFL = {
 
 }
 
-let Mat = {
+var Mat = {
 
 	icons: ["Mat-01.png", "Mat-03.png", "Mat-11.png", "Mat-04.png", "Mat-05.png", "Mat-06.png", "Mat-07.png", "Mat-08.png", "Mat-10.png"],
 	heading: "Matter",
@@ -36,7 +36,7 @@ let Mat = {
 
 }
 
-let RGB = {
+var RGB = {
 
 	icons: ["RGB-01-01.png", "RGB-01-02.png", "RGB-01-03.png", "RGB-02.png", /*"RGB-03.png", "RGB-04.png", "RGB-05.png",*/ "RGB-06-01.png", "RGB-06-02.png", "RGB-06-03.png"],
 	heading: "RGB Location",
@@ -45,7 +45,7 @@ let RGB = {
 
 }
 
-let RWP = {
+var RWP = {
 
 	icons: ["RWP-01-01.png", "RWP-01-02.png", "RWP-01-03.png", "RWP-01-04.png" , "RWP-02-01.png", /*"RWP-02-02.png",*/ "RWP-02-03.png", "RWP-02-04.png"],
 	heading: "Microsites from \"Reading without Pages\" class at Parsons",
@@ -54,7 +54,7 @@ let RWP = {
 
 }
 
-let SB = {
+var SB = {
 
 	icons: ["SB-01.png", "SB-02.png", "SB-03.png", "SB-04.png", "SB-05.png", "SB-06.png", "SB-07.png", "SB-08.png", "SB-09.png", "SB-10.png", "SB-11.png", "SB-12.png"],
 	heading: "Sidebar Journal",
@@ -63,7 +63,7 @@ let SB = {
 
 }
 
-let OTH = {
+var OTH = {
 
 	icons: ["OTH-01.gif", "OTH-02.png", "OTH-04.gif"],
 	heading: "Computational Form",
@@ -72,17 +72,17 @@ let OTH = {
 
 }
 
-let arr = [IO1, LFL, Mat, RGB, RWP, SB, IO2];
+var arr = [IO1, LFL, Mat, RGB, RWP, SB, IO2];
 
-const content = document.getElementById("content");
+var content = document.getElementById("content");
 
 shuffle(arr);
 
-for (let i = 0; i < arr.length; i++) {
+for (var i = 0; i < arr.length; i++) {
 
-	let j = i + 1;
+	var j = i + 1;
 
-	for (let n = 0; n < arr[i].icons.length; n++) {
+	for (var n = 0; n < arr[i].icons.length; n++) {
 
 		content.innerHTML += '<img src="assets/' + arr[i].icons[n] + '">';
 
@@ -96,7 +96,7 @@ for (let i = 0; i < arr.length; i++) {
  
 function shuffle(a) {
 
-    let j, x, i;
+    var j, x, i;
 
     for (i = a.length - 1; i > 0; i--) {
 
@@ -115,8 +115,7 @@ function shuffle(a) {
 
 content.onclick = function(event) {
 
-	let target = event.target;
-	// console.log(target.tagName);
+	var target = event.target;
 
 	if (target.tagName == "IMG") {
 
