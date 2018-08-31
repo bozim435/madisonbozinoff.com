@@ -1,9 +1,6 @@
-/*** General ***/
-
 @font-face {
 
 	font-family: "GrotesqueMT";
-	font-weight: normal;
 	src: url("../assets/fonts/GrotesqueMT.otf"
 		);
 
@@ -18,21 +15,13 @@
 
 body {
 
+	margin: 1.75em 2.5em;
 	font-family: GrotesqueMT, arial, sans-serif;
-	font-weight: normal;
 	font-size: 18px;
-	line-height: 23px;
+	line-height: 1.25em;
 	letter-spacing: 0.02em;
-	background: #b7b8b9 /*lightgrey*/;
-	margin: 32px;
+	background: #b7b8b9;
 	color: white;
-
-}
-
-a {
-
-	text-decoration: underline;
-	color: inherit;
 
 }
 
@@ -43,40 +32,71 @@ h1 {
 
 }
 
+a {
+
+	position: relative;
+	bottom: 2px;
+	text-decoration: none;
+	color: inherit;
+	border-bottom: solid 2px white;
+
+}
+
+a:hover {
+
+	cursor: crosshair;
+	color: palegreen;
+	border-bottom: solid 2px palegreen;
+
+}
+
 p {
-
 	
-	display: inline-block;
 	min-width: 400px;
-	max-width: 57%;
-	text-indent: 38px;
+	max-width: 66%;
+	display: inline-block;
+	text-indent: 2em;
 
 }
 
-span {
+#top {
 
-	font-size: 18px;
+	margin-bottom: 1.25em;
 
 }
 
-#content {
+#container {
 
-	margin: 16px;
 	width: 100%
 
 }
 
-#content > img {
+#container > img {
 
-	margin: 0.6em 1.6em 0.6em 0;
+	margin: 0.5em 1.75em 0.5em 0;
 	height: 88px;
 	display: inline-block;
 	background: white;
 
 }
 
-#content > img:hover {
+#container > img:hover {
 
-	cursor: pointer;
+	cursor: crosshair;
+
+}
+
+#bottom {
+
+	min-width: 400px;
+	max-width: 100%;
+
+}
+
+#bottom > p {
+
+	letter-spacing: 0;
+	text-indent: 0;
+	color: white;
 
 }

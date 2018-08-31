@@ -1,5 +1,3 @@
-/*** Randomize Layout ***/
-
 var IO1 = {
 	
 	icons: ["IO-TW-01.png", /*"IO-TW-04.png", "IO-TW-08.png",*/ "IO-TW-10.png", "IO-TW-05-02.png", "IO-PP-01.png", "IO-PP-02.png", "IO-PP-03.png", "IO-PP-04.png", "IO-PP-05.png", "IO-PP-06.png", "IO-PP-07.png", "IO-PP-08.png", "IO-PP-09.png", "IO-PP-10.png"],
@@ -22,7 +20,7 @@ var LFL = {
 
 	icons: ["LFL-Location-01.png", "LFL-Location-02.png","LFL-01.png", "LFL-02.png", "LFL-03.png", "LFL-04.png", "LFL-05.png", "LFL-Process-01.png", "LFL-Process-02.png", "LFL-Process-03.png", "LFL-AppStore-01.png", "LFL-AppStore-02.png"],
 	heading: "Little Free Library",
-	descrip: "A collectively curated selection of quotes from books found in the Little Free Library of the Green Oasis community garden. When reading a book in physical space, shadows are cast on to the book from the readers hands and body, over the course of the day. The app incorporates this phenomenon as a visual layer. Submitted quotes are stamped with a shadow image that represents the time of day they were submitted. <a href='https://invis.io/7YNROO06FJB' target='blank'>Visit prototype<a/>, <a href='https://s3.amazonaws.com/arena-attachments/1943214/5cce3d210e2f03aada91b956c1aa743e.pdf?1521917137' target='blank'>See app presentation<a/>", /* Rework Last Sentence */
+	descrip: "A collectively curated selection of quotes from books found in the Little Free Library of the Green Oasis community garden. When reading a book in physical space, shadows are cast on to the book from the readers hands and body, over the course of the day. The app incorporates this phenomenon as a visual layer. Submitted quotes are stamped with a shadow image that represents the time of day they were submitted. <a href='https://invis.io/7YNROO06FJB' target='blank'>Prototype</a> <a href='https://s3.amazonaws.com/arena-attachments/1943214/5cce3d210e2f03aada91b956c1aa743e.pdf?1521917137' target='blank'>Presentation</a>",
 	path: "LFL/LFL.html"
 
 }
@@ -48,8 +46,8 @@ var RGB = {
 var RWP = {
 
 	icons: ["RWP-01-01.png", "RWP-01-02.png", "RWP-01-03.png", "RWP-01-04.png" , "RWP-02-01.png", /*"RWP-02-02.png",*/ "RWP-02-03.png", "RWP-02-04.png"],
-	heading: "Microsites from \"Reading without Pages\" class at Parsons",
-	descrip: "1. An instructional site for using CSS Grids that is structured within a series of nested grids. Users can toggle the visibility of black gridlines that describe the architecture of the page. <a href='https://madboz.github.io/reading-without-pages/demo' target='blank'>Visit site</a> </br> 2. Alternate reading experience for \"Something is Wrong on the Internet\" by James Bridle cuts and remixes the article in a similar way to the videos he writes about. <a href='https://madboz.github.io/reading-without-pages/piece' target='blank'>Visit site</a>", /* Fix this sentence */
+	heading: "Reading without Pages",
+	descrip: "1. An instructional site for using CSS Grids that is structured within a series of nested grids. Users can toggle the visibility of black gridlines that describe the architecture of the page. <a href='https://madboz.github.io/reading-without-pages/demo' target='blank'>Visit site</a> </br> 2. Alternate reading experience for \"Something is Wrong on the Internet\" by James Bridle cuts and remixes the article in a similar way to the videos he writes about. <a href='https://madboz.github.io/reading-without-pages/piece' target='blank'>Visit site</a>",
 	path: "RWP/RWP.html"
 
 }
@@ -73,10 +71,9 @@ var OTH = {
 }
 
 var arr = [IO1, LFL, Mat, RGB, RWP, SB, IO2];
-
-var content = document.getElementById("content");
-
 shuffle(arr);
+
+var container = document.getElementById("container");
 
 for (var i = 0; i < arr.length; i++) {
 
@@ -84,15 +81,35 @@ for (var i = 0; i < arr.length; i++) {
 
 	for (var n = 0; n < arr[i].icons.length; n++) {
 
-		content.innerHTML += '<img src="assets/' + arr[i].icons[n] + '">';
+		container.innerHTML += '<img src="assets/' + arr[i].icons[n] + '">';
 
 	}
 
-	content.innerHTML += '</br></br><p>' + arr[i].heading + '</br>' + arr[i].descrip + '</p></br></br>';
+	container.innerHTML += '</br></br><p>' + arr[i].heading + '</br>' + arr[i].descrip + '</p></br></br>';
 
 }
 
-/*** Generic Shuffle Function ***/
+container.onclick = function(event) {
+
+	var target = event.target;
+
+	if (target.tagName == "IMG") {
+
+		if (target.style.height !== "500px") {
+
+        target.style.height = "500px";
+
+	    } else {
+
+	        target.style.height = "88px";
+
+	    }
+
+	}
+
+}
+
+/*** Generic shuffle function ***/
  
 function shuffle(a) {
 
@@ -108,27 +125,5 @@ function shuffle(a) {
     }
 
     return a;
-
-}
-
-/*** Toggle Size ***/
-
-content.onclick = function(event) {
-
-	var target = event.target;
-
-	if (target.tagName == "IMG") {
-
-		if (target.style.height !== "40vw") {
-
-        target.style.height = "40vw";
-
-	    } else {
-
-	        target.style.height = "88px";
-
-	    }
-
-	}
 
 }
