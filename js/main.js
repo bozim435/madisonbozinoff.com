@@ -22,7 +22,7 @@ var LFL = {
 
 	icons: ["LFL-Location-01.png", "LFL-Location-02.png","LFL-01.png", "LFL-02.png", "LFL-03.png", "LFL-04.png", "LFL-05.png", "LFL-Process-01.png", "LFL-Process-02.png", "LFL-Process-03.png", "LFL-AppStore-01.png", "LFL-AppStore-02.png"],
 	heading: "Little Free Library",
-	descrip: "An app for collecting quotes found in the Little Free Library of the Green Oasis community garden. The Little Free Library app creates a collectively currated selection of quotes from books that may or may not still be in the library. Submitted quotes are \"stamped\" with a shadow image that represents the time of day they were submitted. <a href='https://invis.io/7YNROO06FJB' target='blank'>Visit prototype<a/>, <a href='https://s3.amazonaws.com/arena-attachments/1943214/5cce3d210e2f03aada91b956c1aa743e.pdf?1521917137' target='blank'>See app presentation<a/>", /* Rework Last Sentence */
+	descrip: "A collectively curated selection of quotes from books found in the Little Free Library of the Green Oasis community garden. When reading a book in physical space, shadows are cast on to the book from the readers hands and body, over the course of the day. The app incorporates this phenomenon as a visual layer. Submitted quotes are stamped with a shadow image that represents the time of day they were submitted. <a href='https://invis.io/7YNROO06FJB' target='blank'>Visit prototype<a/>, <a href='https://s3.amazonaws.com/arena-attachments/1943214/5cce3d210e2f03aada91b956c1aa743e.pdf?1521917137' target='blank'>See app presentation<a/>", /* Rework Last Sentence */
 	path: "LFL/LFL.html"
 
 }
@@ -49,7 +49,7 @@ var RWP = {
 
 	icons: ["RWP-01-01.png", "RWP-01-02.png", "RWP-01-03.png", "RWP-01-04.png" , "RWP-02-01.png", /*"RWP-02-02.png",*/ "RWP-02-03.png", "RWP-02-04.png"],
 	heading: "Microsites from \"Reading without Pages\" class at Parsons",
-	descrip: "1. An instructional site for using CSS Grids that is structured within a series of nested grids. Users can toggle the visibility of black gridlines that describe the architecture of the page. <a href='https://madboz.github.io/reading-without-pages/demo' target='blank'>Visit site</a> </br> 2. Alternate reading experience for \"Something is Wrong on the Internet\" by James Bridle that cuts and remixes the article in a similar way to the videos he writes about. <a href='https://madboz.github.io/reading-without-pages/piece' target='blank'>Visit site</a>", /* Fix this sentence */
+	descrip: "1. An instructional site for using CSS Grids that is structured within a series of nested grids. Users can toggle the visibility of black gridlines that describe the architecture of the page. <a href='https://madboz.github.io/reading-without-pages/demo' target='blank'>Visit site</a> </br> 2. Alternate reading experience for \"Something is Wrong on the Internet\" by James Bridle cuts and remixes the article in a similar way to the videos he writes about. <a href='https://madboz.github.io/reading-without-pages/piece' target='blank'>Visit site</a>", /* Fix this sentence */
 	path: "RWP/RWP.html"
 
 }
