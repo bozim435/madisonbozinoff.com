@@ -85,7 +85,7 @@ for (var i = 0; i < arr.length; i++) {
 
 	}
 
-	container.innerHTML += '</br></br><p>' + arr[i].heading + '</br>' + arr[i].descrip + '</p></br></br>';
+	container.innerHTML += '</br><p>' + arr[i].heading + '</br>' + arr[i].descrip + '</p>';
 
 }
 

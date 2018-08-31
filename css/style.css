@@ -13,6 +13,12 @@
 
 }
 
+*::selection {
+
+	color: palegreen;
+
+}
+
 body {
 
 	margin: 1.75em 2.5em;
@@ -52,22 +58,21 @@ a:hover {
 
 p {
 	
-	min-width: 400px;
 	max-width: 66%;
-	display: inline-block;
+	margin: 1em 0 1.5em 0;
 	text-indent: 2em;
+
+}
+
+p + p {
+
+    margin-top: -1.5em;
 
 }
 
 #top {
 
-	margin-bottom: 1.25em;
-
-}
-
-#container {
-
-	width: 100%
+	margin-bottom: 1.5em;
 
 }
 
@@ -86,17 +91,48 @@ p {
 
 }
 
-#bottom {
-
-	min-width: 400px;
-	max-width: 100%;
-
-}
-
 #bottom > p {
 
-	letter-spacing: 0;
 	text-indent: 0;
-	color: white;
 
 }
+
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 812px){ 
+
+	body {
+
+		font-size: 18px;
+
+	}
+
+	p {
+	
+		max-width: 100%;
+
+	}
+
+	a {
+
+		border-bottom: solid 4px white;
+
+	}
+
+	a:hover {
+
+		border-bottom: solid 4px palegreen;
+
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
