@@ -93,19 +93,41 @@ container.onclick = function(event) {
 
 	var target = event.target;
 
-	if (target.tagName == "IMG") {
+	var x = window.matchMedia("(max-width: 812px)")
 
-		if (target.style.height !== "27.8em") {
+	if (x.matches) {
 
-        target.style.height = "27.8em";
+        if (target.tagName == "IMG") {
 
-	    } else {
+			if (target.style.height !== "20em") {
 
-	        target.style.height = "4.9em";
+	        	target.style.height = "20em";
 
-	    }
+		    } else {
 
-	}
+		        target.style.height = "3em";
+
+		    }
+
+		}
+
+    } else {
+
+        if (target.tagName == "IMG") {
+
+			if (target.style.height !== "27.8em") {
+
+	        	target.style.height = "27.8em";
+
+		    } else {
+
+		        target.style.height = "4.9em";
+
+		    }
+
+		}
+
+    }
 
 }
 

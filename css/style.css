@@ -125,6 +125,12 @@ and (max-device-width : 812px){
 
 	}
 
+	#container > img {
+
+		height: 3em;
+
+	}
+
 }
 
 
