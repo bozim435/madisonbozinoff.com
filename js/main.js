@@ -95,13 +95,13 @@ container.onclick = function(event) {
 
 	if (target.tagName == "IMG") {
 
-		if (target.style.height !== "500px") {
+		if (target.style.height !== "27.8em") {
 
-        target.style.height = "500px";
+        target.style.height = "27.8em";
 
 	    } else {
 
-	        target.style.height = "88px";
+	        target.style.height = "4.9em";
 
 	    }
 
