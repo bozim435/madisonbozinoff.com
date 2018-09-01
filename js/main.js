@@ -2,7 +2,7 @@ var IO1 = {
 	
 	icons: ["IO-TW-01.png", /*"IO-TW-04.png", "IO-TW-08.png",*/ "IO-TW-10.png", "IO-TW-05-02.png", "IO-PP-01.png", "IO-PP-02.png", "IO-PP-03.png", "IO-PP-04.png", "IO-PP-05.png", "IO-PP-06.png", "IO-PP-07.png", "IO-PP-08.png", "IO-PP-09.png", "IO-PP-10.png"],
 	heading: "Input Output 1",
-	descrip: "Input Output 1 explores the possibilities of instruction-based methods in both image-making and typography. By extending the concept of rule-based art to the program, Input Output investigates whether a set of instructions executed in code can produce unexpected and sometimes poetic results. </p><p>Twitter bots both create and post images that respond to a set of instructions (a program). The outputs are taken from twitter and systematically placed into a grid to be drawn with a pen plotter as physical documentation. <a href='https://twitter.com/dewy_jojoba/lists/thesis/members'>See the bots</a>",
+	descrip: "Input Output 1 explores the possibilities of instruction-based methods in both image-making and typography. By extending the concept of rule-based art to the program, Input Output investigates whether a set of instructions executed in code can produce unexpected and sometimes poetic results. </p><p>Twitter bots both create and post images that respond to a set of instructions (a program). The outputs are taken from twitter and systematically placed into a grid to be drawn with a pen plotter as physical documentation. <a href='https://twitter.com/dewy_jojoba/lists/thesis/members' target='blank'>See the bots</a>",
 	path: "IO/IO.html"
 
 }
@@ -47,7 +47,7 @@ var RWP = {
 
 	icons: ["RWP-01-01.png", "RWP-01-02.png", "RWP-01-03.png", "RWP-01-04.png" , "RWP-02-01.png", /*"RWP-02-02.png",*/ "RWP-02-03.png", "RWP-02-04.png"],
 	heading: "Reading without Pages",
-	descrip: "1. An instructional site for using CSS Grids that is structured within a series of nested grids. Users can toggle the visibility of black gridlines that describe the architecture of the page. <a href='https://madboz.github.io/reading-without-pages/demo' target='blank'>Visit site</a> </br> 2. Alternate reading experience for \"Something is Wrong on the Internet\" by James Bridle cuts and remixes the article in a similar way to the videos he writes about. <a href='https://madboz.github.io/reading-without-pages/piece' target='blank'>Visit site</a>",
+	descrip: "1. An instructional site for CSS Grids that is structured within a series of nested grids. Users can toggle the visibility of black gridlines that describe the architecture of the page. <a href='https://madboz.github.io/reading-without-pages/demo' target='blank'>Visit site</a> </br> 2. Alternate reading experience for \"Something is Wrong on the Internet\" by James Bridle cuts and remixes the article in a similar way to the videos he writes about. <a href='https://madboz.github.io/reading-without-pages/piece' target='blank'>Visit site</a>",
 	path: "RWP/RWP.html"
 
 }
