@@ -2,7 +2,7 @@ var IO1 = {
 	
 	icons: ["IO-TW-01.png", /*"IO-TW-04.png", "IO-TW-08.png",*/ "IO-TW-10.png", "IO-TW-05-02.png", "IO-PP-01.png", "IO-PP-02.png", "IO-PP-03.png", "IO-PP-04.png", "IO-PP-05.png", "IO-PP-06.png", "IO-PP-07.png", "IO-PP-08.png", "IO-PP-09.png", "IO-PP-10.png"],
 	heading: "Input Output 1",
-	descrip: "Input Output 1 explores the possibilities of instruction-based methods in both image-making and typography. By extending the concept of rule-based art to the program, Input Output investigates whether a set of instructions executed in code can produce unexpected and sometimes poetic results. </p><p>Twitter bots both create and post images that respond to a set of instructions (a program). The outputs are taken from twitter and systematically placed into a grid to be drawn with a pen plotter as physical documentation. <a href='https://twitter.com/dewy_jojoba/lists/thesis/members' target='blank'>See the bots</a> <a href='pen-plotter-lines/index.html' target='blank'>See pen plotter lines</a>",
+	descrip: "Input Output 1 explores the possibilities of instruction-based methods in both image-making and typography. By extending the concept of rule-based art to the program, Input Output investigates whether a set of instructions executed in code can produce unexpected and sometimes poetic results. </p><p>Twitter bots both create and post images that respond to a set of instructions (a program). The outputs are taken from twitter and systematically placed into a grid to be drawn with a pen plotter as physical documentation. <a href='https://twitter.com/dewy_jojoba/lists/thesis/members' target='blank'>See twitter bots</a> <a href='pen-plotter-lines/index.html' target='blank'>See pen plotter lines</a>",
 	path: "IO/IO.html"
 
 }
