@@ -1,0 +1,78 @@
+<!doctype html>
+<html>
+<head>
+
+	<title>Pen Plotter Lines 👀🔎✨</title>
+
+	<meta http-equiv="refresh" content="5" >
+
+	<link rel="icon" href="../assets/favicons/fav.png" type="image/png">
+
+	<style type="text/css">
+		
+		* {
+
+            padding: 0; 
+            margin: 0;
+
+        }
+
+        #container {
+
+        	position: absolute;
+        	width: 100vw;
+        	width: 100vh;
+        	overflow: hidden;
+
+        }
+
+        img {
+
+        	position: fixed;
+        	width: 2400px;
+        	height: 2400px;
+
+        }
+
+	</style>
+
+</head>
+<body>
+
+	<script type="text/javascript">
+
+		var b = document.body;
+
+		var r = Math.floor(Math.random() * 10 + 1);
+		var n;
+
+		if (r < 10) {
+
+			n = "0" + r;
+
+		} else {
+
+			n = r;
+
+		}
+
+		b.innerHTML += '<img src="assets/IO-PP-' + n + '.png">';
+
+		var img = document.getElementsByTagName("IMG");
+		var img_w_h = 2400;
+
+		var w_max = img_w_h - window.innerWidth;
+		var h_max = img_w_h - window.innerHeight;
+		var left_disp = Math.floor(Math.random() * w_max);
+		var top_disp = Math.floor(Math.random() * h_max);
+
+		console.log("DIFFERENCE  width: " + w_max + " height: " + h_max);
+		console.log("DISPLACEMENTS  left: -" + left_disp + " top: -" + top_disp);
+
+		img[0].style.left = "-" + left_disp + "px";
+		img[0].style.top = "-" + top_disp + "px";
+
+	</script>
+
+</body>
+</html>
