@@ -70,6 +70,25 @@ p + p {
 
 }
 
+li {
+
+	list-style-type: none;
+	margin-left: 1em;
+
+}
+
+li > a {
+
+	border-bottom: none;
+
+}
+
+span {
+
+	margin-right: 1em;
+
+}
+
 #top {
 
 	margin-bottom: 1.5em;
