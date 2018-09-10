@@ -50,7 +50,7 @@ a {
 
 a:hover {
 
-	cursor: crosshair;
+	cursor: pointer;
 	color: palegreen;
 	border-bottom: solid 2px palegreen;
 
@@ -106,7 +106,7 @@ span {
 
 #container > img:hover {
 
-	cursor: crosshair;
+	cursor: pointer;
 
 }
 
