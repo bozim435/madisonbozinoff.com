@@ -18,7 +18,7 @@ var IO2 = {
 
 var LFL = {
 
-	icons: ["LFL-Location-01.png", "LFL-Location-02.png","LFL-01.png", "LFL-02.png", "LFL-03.png", "LFL-04.png", "LFL-05.png", "LFL-Process-01.png", "LFL-Process-02.png", "LFL-Process-03.png", "LFL-AppStore-01.png", "LFL-AppStore-02.png"],
+	icons: ["LFL-Location-01.png", "LFL-Location-02.png","LFL-01.png", "LFL-02.png", "LFL-03.png", "LFL-04.png", "LFL-05.png", /*"LFL-Process-01.png", "LFL-Process-02.png",*/ "LFL-Process-03.png", "LFL-AppStore-01.png", "LFL-AppStore-02.png"],
 	heading: "Little Free Library, 2017",
 	descrip: "An app for collecting quotes from books found in the Little Free Library of the Green Oasis community garden. The app creates a collectively curated selection of quotes from books that may or may not still be in the library.</p><p>When reading a book in the physical space, shadows are cast on to the book from the readers hands and body, over the course of the day. The app incorporates this phenomenon as a visual layer linking the experience of the app to the experience of the Little Free Library. Depending on the time of day, when a user adds a quote, the quote is &ldquo;stamped&rdquo; with a unique shadow image from the Green Oasis Garden. <a href='https://invis.io/7YNROO06FJB' target='blank'>Prototype</a> <a href='https://www.usertesting.com/v/d0cac6ba-1700-4a52-aaf4-1fe37ea70228#!/notes' target='blank'>User Test</a> <a href='https://s3.amazonaws.com/arena-attachments/1943214/5cce3d210e2f03aada91b956c1aa743e.pdf?1521917137' target='blank'>Presentation</a>",
 	path: "LFL/LFL.html"
