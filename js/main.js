@@ -70,7 +70,7 @@ var OTH = {
 
 }
 
-var arr = [IO1, LFL, Mat, RGB, RWP, IO2];
+var arr = [IO1, LFL, Mat, RGB, RWP, IO2, SB];
 shuffle(arr);
 
 var container = document.getElementById("container");
