@@ -46,8 +46,8 @@ var RGB = {
 var RWP = {
 
 	icons: ["RWP-01-01.png", "RWP-01-02.png", "RWP-01-03.png", "RWP-01-04.png" , "RWP-02-01.png", /*"RWP-02-02.png",*/ "RWP-02-03.png", "RWP-02-04.png"],
-	heading: "Reading without Pages, 2018",
-	descrip: "1. An instructional site for CSS Grids that is structured within a series of nested grids. Users can toggle the visibility of black gridlines that describe the architecture of the page. <a href='https://madboz.github.io/reading-without-pages/demo' target='blank'>CSS Grids Demo</a> </br> 2. Alternate reading experience for \"Something is Wrong on the Internet\" by James Bridle cuts and remixes the article in a similar way to the videos he writes about. <a href='https://madboz.github.io/reading-without-pages/piece' target='blank'>Something is Wrong on the Internet</a>",
+	heading: "Reading without Pages Microsites, 2018",
+	descrip: "Two mircosites made in Reading without Pages, a class centered on the design of publications online. Students spent one week preparing a coding demo and one week redesigning an article. </br> 1. An instructional site for CSS Grids that is structured within a series of nested grids. Users can toggle the visibility of black gridlines that describe the architecture of the page. <a href='https://madboz.github.io/reading-without-pages/demo' target='blank'>CSS Grids Demo</a> </br> 2. Alternate reading experience for \"Something is Wrong on the Internet\" by James Bridle cuts and remixes the article in a similar way to the videos he writes about. <a href='https://madboz.github.io/reading-without-pages/piece' target='blank'>Something is Wrong on the Internet</a>",
 	path: "RWP/RWP.html"
 
 }
