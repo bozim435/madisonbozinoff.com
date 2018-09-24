@@ -95,10 +95,7 @@ for (let i = 0; i < arr.length; i++) {
 
 }
 
-
-
-
-/*** Shuffle ***/
+/*** Generic shuffle ***/
 
 function shuffle(arr) {
 
