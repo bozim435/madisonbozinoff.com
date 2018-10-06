@@ -35,7 +35,7 @@ const Mat = {
 	icons: ["Mat-01.png", "Mat-03.png", "Mat-11.png", "Mat-04.png", "Mat-05.png", "Mat-06.png", "Mat-07.png", "Mat-08.png", "Mat-10.png"],
 	heading: "Matter",
 	date: "2018",
-	descrip: "Matter is an online publication and research project centered on the themes of media and memory. The site acts as a catalogue of ideas that explore these themes; such as archiving, collective memory, and memory in the digital age. Each article on the site has a programmed expiration date and fades away until it is erased and replaced with new content which reflects the non-permanence of  human memory. <a href='https://madboz.github.io/reading-without-pages/matter' target='blank'>Matter</a>",
+	descrip: "Matter is an online publication and research project centered on the themes of media and memory. The site acts as a catalogue of ideas that explore these themes; such as archiving, collective memory, and memory in the digital age. Each article on the site has a programmed expiration date and fades away until it is erased, reflecting the non-permanence of human memory. <a href='https://madboz.github.io/reading-without-pages/matter' target='blank'>Matter</a>",
 	path: "matter/matter.html"
 
 }
