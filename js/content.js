@@ -82,7 +82,7 @@ for (let i = 0; i < arr.length; i++) {
 
 	}
 
-	container.innerHTML += '</br><p>' + arr[i].heading + ", " + arr[i].date + '</br>' + arr[i].descrip + '</p>';
+	container.innerHTML += "</br><p>" + arr[i].heading + ", " + arr[i].date + "</br>" + arr[i].descrip + "</p>";
 
 }
 
