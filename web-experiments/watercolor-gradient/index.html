@@ -1,0 +1,123 @@
+<!doctype html>
+<html>
+<head>
+
+	<title>Watercolor Gradient -- Documentation</title>
+
+	<link rel="icon" href="../assets/favicons/fav.png" type="image/png">
+
+	<style type="text/css">
+
+		@font-face {
+
+			font-family: "grotesque mt";
+  			src: url("../assets/fonts/GrotesqueMT.otf");
+		}
+
+		* {
+
+			margin: 0px;
+			padding: 0px;
+
+		}
+
+		img, #selected {
+
+			width: 25vw;
+			height: 25vw;
+			margin-bottom: -4px;
+			background: white;
+
+		}
+
+		#background {
+
+			width: 100vw;
+			height: 100vh;
+			position: absolute;
+			z-index: -1;
+
+		}
+
+		#wrapper {
+
+			display: block;
+
+		}
+
+		#foreground {
+
+			width: 100vw;
+			height: 100vh;
+			position: absolute;
+			z-index: 0;
+
+		}
+
+	</style>
+</head>
+<body>
+
+	<div id="wrapper">
+		<div id="background"></div>
+		<div id="foreground"></div>
+	</div>
+
+	<script type="text/javascript">
+
+		var background = document.getElementById("background");
+		var foreground = document.getElementById("foreground");
+
+		var index;
+
+		for (i = 1; i < 25; i++) {
+
+			j = i - 1;
+
+			background.innerHTML += '<img id="' + j + '" src="gradient-' + i + '.png">';
+
+		}
+
+		background.onclick = function(event) {
+
+			var target = event.target;
+
+			var images = document.querySelectorAll("IMG");
+
+			if (target.tagName == "IMG") {
+
+				foreground.style.display = "block";
+
+				foreground.innerHTML = " ";
+
+				console.log(foreground.innerHTML);
+
+				for (i = 0; i < images.length; i++) {
+
+					// if (target.id == i) {
+
+					// 	foreground.innerHTML += '<div id="selected"></div>';
+					// 	console.log("hello");
+						
+					// } else {
+
+						foreground.innerHTML += '<img src="' + target.src + '">';
+
+					// }
+
+				}
+
+			}
+
+		}
+
+		foreground.onclick = function() {
+
+			foreground.style.display = "none";
+
+		}
+
+	</script>
+
+</body>
+</html>
