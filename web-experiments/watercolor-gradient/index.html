@@ -2,119 +2,76 @@
 <html>
 <head>
 
-	<title>Watercolor Gradient -- Documentation</title>
+	<title>Watercolor Gradient</title>
 
-	<link rel="icon" href="../assets/favicons/fav.png" type="image/png">
+	<link rel="icon" href="x-white-grey.png" type="image/png">
 
 	<style type="text/css">
 
-		@font-face {
-
-			font-family: "grotesque mt";
-  			src: url("../assets/fonts/GrotesqueMT.otf");
-		}
-
 		* {
-
 			margin: 0px;
 			padding: 0px;
-
 		}
 
-		img, #selected {
-
+		img {
 			width: 25vw;
 			height: 25vw;
 			margin-bottom: -4px;
-			background: white;
-
 		}
 
-		#background {
-
+		#container {
 			width: 100vw;
 			height: 100vh;
 			position: absolute;
-			z-index: -1;
-
-		}
-
-		#wrapper {
-
-			display: block;
-
-		}
-
-		#foreground {
-
-			width: 100vw;
-			height: 100vh;
-			position: absolute;
-			z-index: 0;
-
 		}
 
 	</style>
 </head>
 <body>
 
-	<div id="wrapper">
-		<div id="background"></div>
-		<div id="foreground"></div>
-	</div>
+	<div id="container"></div>
 
 	<script type="text/javascript">
 
-		var background = document.getElementById("background");
-		var foreground = document.getElementById("foreground");
+		var container = document.getElementById("container");
+		var selected = false;
 
-		var index;
-
-		for (i = 1; i < 25; i++) {
-
-			j = i - 1;
-
-			background.innerHTML += '<img id="' + j + '" src="gradient-' + i + '.png">';
-
-		}
-
-		background.onclick = function(event) {
-
-			var target = event.target;
-
-			var images = document.querySelectorAll("IMG");
-
-			if (target.tagName == "IMG") {
-
-				foreground.style.display = "block";
-
-				foreground.innerHTML = " ";
-
-				console.log(foreground.innerHTML);
-
-				for (i = 0; i < images.length; i++) {
-
-					// if (target.id == i) {
-
-					// 	foreground.innerHTML += '<div id="selected"></div>';
-					// 	console.log("hello");
-						
-					// } else {
-
-						foreground.innerHTML += '<img src="' + target.src + '">';
-
-					// }
-
-				}
-
+		function setup() {
+			for (i = 0; i < 24; i++) {
+				var image = document.createElement("IMG");
+				container.appendChild(image);
 			}
-
 		}
 
-		foreground.onclick = function() {
+		setup();
+		all_colours();
 
-			foreground.style.display = "none";
+		container.onclick = function(event) {
+			var target = event.target;
+			if (selected == false) {
+				one_colour(target);
+				selected = true;
+			} else {
+				all_colours();
+				selected = false;
+			}
+		}
 
+		function one_colour(target) {
+			var images = document.querySelectorAll("IMG");
+			for (var i = 1; i < images.length + 1; i++) {
+				j = i - 1;
+				images[j].src = target.src;
+			}
+			target.src = "x-white-grey.png";
+		}
+
+		function all_colours() {
+			var images = document.querySelectorAll("IMG");
+			for (var i = 1; i < images.length + 1; i++) {
+				j = i - 1;
+				images[j].src = "gradient-" + i + ".png";
+			}
 		}
 
 	</script>

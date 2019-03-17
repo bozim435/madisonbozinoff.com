@@ -4,14 +4,10 @@
 
 	<title>Pen Plotter Lines 👀🔎✨</title>
 
-	<meta name="description" content="Madison Bozinoff">
-	<meta name="keywords" content="Madison Bozinoff">
-	<meta name="author" content="Madison Bozinoff">
-
 	<meta http-equiv="refresh" content="2.5" >
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<link rel="shortcut icon" type="link" href="../assets/favicons/FAV-01.png">
+	<link rel="shortcut icon" type="link" href="../assets/favicons/pen-plotter-favicon.png">
 
 	<style type="text/css">
 		
@@ -46,36 +42,24 @@
 
 	<script type="text/javascript">
 
-		var b = document.body;
+		var body = document.body;
+		var random = Math.floor(Math.random() * 10 + 1);
+		var number = random < 10 ? "0" + random : random;
 
-		var r = Math.floor(Math.random() * 10 + 1);
-		var n;
+		body.innerHTML += '<img src="../assets/images/thesis-1-pen-plotter-' + number + '.png">';
 
-		if (r < 10) {
+		var images = document.getElementsByTagName("IMG");
+		var images_dimensions = 2400;
+		var max_width = images_dimensions - window.innerWidth;
+		var max_height = images_dimensions - window.innerHeight;
+		var left_displacement = Math.floor(Math.random() * max_width);
+		var top_displacement = Math.floor(Math.random() * max_height);
 
-			n = "0" + r;
+		console.log("* difference *        width: " + max_width + "   height: " + max_height);
+		console.log("* displacement *      left: -" + left_displacement + "   top: -" + top_displacement);
 
-		} else {
-
-			n = r;
-
-		}
-
-		b.innerHTML += '<img src="assets/IO-PP-' + n + '.png">';
-
-		var img = document.getElementsByTagName("IMG");
-		var img_w_h = 2400;
-
-		var w_max = img_w_h - window.innerWidth;
-		var h_max = img_w_h - window.innerHeight;
-		var left_disp = Math.floor(Math.random() * w_max);
-		var top_disp = Math.floor(Math.random() * h_max);
-
-		console.log("DIFFERENCE  width: " + w_max + " height: " + h_max);
-		console.log("DISPLACEMENTS  left: -" + left_disp + " top: -" + top_disp);
-
-		img[0].style.left = "-" + left_disp + "px";
-		img[0].style.top = "-" + top_disp + "px";
+		images[0].style.left = "-" + left_displacement + "px";
+		images[0].style.top = "-" + top_displacement + "px";
 
 	</script>
 
