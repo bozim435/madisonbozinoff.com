@@ -1,0 +1,98 @@
+<!doctype html>
+<html>
+<head>
+
+	<title>Madison</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="shortcut icon" type="link" href="assets/favicons/pen-plotter-favicon.png">
+
+	<style type="text/css">
+
+		@font-face {
+			font-family: "grotesque-mt";
+			src: url("assets/fonts/grotesque-mt.otf");
+		}
+		
+		* {
+            padding: 0; 
+            margin: 0;
+            font-family: arial;
+			font-size: 6.5vw;
+			line-height: 1.1em;
+			color: black;
+        }
+
+        #container {
+        	position: absolute;
+        	width: 100vw;
+        	width: 100vh;
+        	z-index: 0;
+        	overflow: hidden;
+        }
+
+        img {
+        	position: fixed;
+        	width: 3800px;
+        	height: 3800px;
+        }
+
+        #info {
+        	position: absolute;
+        	width: 100vw;
+        	z-index: 1;
+        	margin: 1em;
+        }
+
+	</style>
+
+</head>
+<body>
+	
+	<div id="info">
+		<p>Madison Bozinoff</p>
+		<a href="mailto:madison.bozinoff@gmail.com">madison.bozinoff@gmail.com</a>
+	</div>
+	<div id="container"></div>
+
+	<script type="text/javascript">
+
+		var container = document.getElementById("container");
+
+		function populate() {
+			container.innerHTML = '<img src="assets/images/thesis-1-pen-plotter-' + random() + '.png">';
+		}
+
+		function random() {
+			var random = Math.floor(Math.random() * 10 + 1);
+			var number = random < 10 ? "0" + random : random;
+			return number;
+		}
+
+		function displace() {
+			var img_dimensions = 3800;
+			var max_width = img_dimensions - window.innerWidth;
+			var max_height = img_dimensions - window.innerHeight;
+			var l = Math.floor(Math.random() * max_width);
+			var t = Math.floor(Math.random() * max_height);
+			return {
+				l: l,
+				t: t
+			}
+		}
+
+		var the_brain = function() {
+			populate();
+			var img = document.getElementsByTagName("IMG");
+			var d = displace();
+			img[0].style.left = "-" + d.l + "px";
+			img[0].style.top = "-" + d.t + "px";
+		}
+
+		the_brain();
+		setInterval(the_brain, 2500);
+
+	</script>
+
+</body>
+</html>
