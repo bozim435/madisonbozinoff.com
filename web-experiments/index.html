@@ -2,10 +2,26 @@
 <html>
 <head>
 
-	<title>Web Experiments</title>
+	<title>Experiments</title>
 
-	<link rel="icon" href="../assets/favicons/web-experiments-favicon.png" type="image/png">
+	<link rel="icon" target='_blank' href="../assets/favicons/web-experiments-favicon.png" type="image/png">
 
+	<!-- * google analytics -->
+
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-156887308-1"></script>
+
+	<script>
+
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'UA-156887308-1');
+
+	</script>
+	
+	<!-- * style -->
+	
 	<style type="text/css">
 
 		@font-face {
@@ -22,64 +38,130 @@
 		}
 
 		body {
-
-			background: red;
-
-		}
-
-		#b {
-
-			width: 100vw;
-			height: 100vh;
-			position: absolute;
-			z-index: -1;
-
-		}
-
-		#c > * {
-
-			font-family: "grotesque-mt";
-			font-size: 20px;
-			line-height: 26.5px;
-
-		}
-
-		a {
-
-			color: white;
-			text-decoration: none;
-
-		}
-
-		img {
-
-			margin-top: -4px;
-			border-radius: 50%;
-
-		}
-
-		#c {
-
-			top: 50%;
-			left: 50%;
-
-			transform: translate(-50%, -50%);
-
-			position: absolute;
-			width: 880px;
-
-			padding: 40px 20px;
-			columns: 2;
-			column-gap: 20px;
-
-			background: rgba(255, 255, 255, .2);
+			
+			margin: 1.75em 2.5em;
+			font-family: grotesque-mt, arial, sans-serif;
+			font-size: 18px;
+			font-weight: bold;
+			line-height: 1.25em;
+			background: white;
+			color: #aeafb0;
 
 		}
 
 		h1 {
 
-			padding-left: 20px; 
-			text-indent: -20px;
+			font-size: inherit;
+			font-weight: inherit;
+
+		}
+
+		a {
+
+			position: relative;
+			bottom: 2px;
+			text-decoration: none;
+			color: inherit;
+			border-bottom: solid 2px #aeafb0;
+
+		}
+
+		a:hover {
+
+			color: coral;
+			border-bottom: solid 2px coral;
+			cursor: pointer;
+
+		}
+
+		p {
+			
+			max-width: 670px;
+			margin: 1em 0 1.5em 0;
+			text-indent: 2em;
+
+		}
+
+		p + p {
+
+		    margin-top: -1.5em;
+
+		}
+
+		li {
+
+			list-style-type: none;
+			margin-left: 1em;
+
+		}
+
+		li > a {
+
+			border-bottom: none;
+
+		}
+
+		span {
+
+			margin-right: 1em;
+
+		}
+
+		#container > img {
+
+			margin: 0.5em 1.75em 0.5em 0;
+			height: 88px;
+			display: inline-block;
+			background: white;
+			/*border: solid 2px #aeafb0;*/
+
+		}
+
+		#container > img:hover {
+
+			cursor: pointer;
+
+		}
+
+		#bottom > p {
+
+			text-indent: 0;
+
+		}
+
+		@media only screen 
+		and (min-device-width: 375px) 
+		and (max-device-width: 812px){ 
+
+			body {
+
+				font-size: 30px;
+
+			}
+
+			p {
+			
+				max-width: 100%;
+
+			}
+
+			a {
+
+				border-bottom: solid 3px white;
+
+			}
+
+			a:hover {
+
+				border-bottom: solid 3px coral;
+
+			}
+
+			#container > img {
+
+				margin: 0.25em 0.87em 0.25em 0;
+
+			}
 
 		}
 
@@ -87,77 +169,221 @@
 </head>
 <body>
 
-	<div id="b"></div>
+	<div id="top">
 
-	<div id="c">
-		
-		<h1 class="CF"><a class="CF" href="CF/WD/index.html">Markov Chain Webding Landscapes</a></h1>
-		<h1 class="CF"><a class="CF" href="http://compform.net/js_lab/js_lab.html?http://sketches2018.compform.net/posts/JatkJ4J4gcsN2fHXx/code">Paper.js Egg</a></h1>
-		<h1 class="CF"><a class="CF" href="CF/AC/index.html">Animal Crossing House with OPEN SCAD</a></h1>
-		<h1 class="IO"><a class="IO" href="IO/CIRCLE/1/index.html">Random Letterform Circle Font</a></h1>
-		<h1 class="IO"><a class="IO" href="IO/CIRCLE/2/index.html">Random Circle Radius Circle Font</a></h1>
-		<h1 class="IO"><a class="IO" href="IO/CIRCLE/3/index.html">Random Stroke Weight Circle Font</a></h1>
-		<h1 class="RWP"><a class="" href="http://s3.amazonaws.com/arena-attachments/1956535/107a28753f0785d142fa543e9d7ad9e0.pdf?1522167279">Matter Proposal Presentaion</a></h1>
-		<h1 class="CF"><a class="CF" href="http://compform.net/js_lab/js_lab.html?http://sketches2018.compform.net/posts/DKL3MDCC6eBEmZS7Y/code">Feather Drawn with Turtle Graphics</a></h1>
-		<h1 class="CF"><a class="CF" href="http://compform.net/js_lab/js_lab.html?http://sketches2018.compform.net/posts/vQqFLuGuPZXz7ZqYS/code">Bird Drawn with Turtle Graphics</a></h1>
-		<h1 class="CF"><a class="CF" href="http://compform.net/js_lab/js_lab.html?http://sketches2018.compform.net/posts/JQAESw2ufRhYYrm9h/code">Herbert W. Franke's Quadrate with Turtle Graphics</a></h1>
-		<h1 class="IO"><a class="IO" href="IO/LINE/random-letterform/index.html">Random Letterform Line Font</a></h1>
-		<h1 class="IO"><a class="IO" href="IO/LINE/random-stroke-full/index.html">Random Stroke Weight Line Font (Single)</a></h1>
-		<h1 class="IO"><a class="IO" href="IO/LINE/random-stroke-inh1idual/index.html">Random Stroke Weight Line Font (All)</a></h1>
-		<h1 class="MOB-2"><a class="MOB-2" href="https://app.atomic.io/d/3eQqRVt96xoF">P Productivity App</a></h1>
-		<h1 class="MOB-2"><a class="MOB-2" href="http://s3.amazonaws.com/arena-attachments/1977955/6833c79b552075aa5cca940cf6fa8eb5.pdf?1522526344">P Productivity Presentation</a></h1>
-		<h1 class="RWP"><a class="RWP" href="http://s3.amazonaws.com/arena-attachments/1816291/fe4922d2d3a6fddb655e22aad62c659b.pdf?1519713947">Footnotes Research</a></h1>
-		<h1 class="CF"><a class="CF" href="https://output.jsbin.com/taniqax">Generative Checkbox Map Using Perlin Noise</a></h1>
-		<h1 class="CF"><a class="CF" href="https://jsbin.com/votofegudo">Generative Noise Typeface</a></h1>
-		<h1 class="CF"><a class="CF" href="https://output.jsbin.com/nixezo">Wacky Flower Generator Made with Noise</a></h1>
-		<h1 class="RWP"><a class="RWP" href="https://madboz.github.io/reading-without-pages/piece/index.html">Something is Wrong on the Internet Collage</a></h1>
-		<h1 class="RWP"><a class="RWP" href="https://madboz.github.io/reading-without-pages/demo/index.html">CSS Columns Instruction Page</a></h1>
-		<h1 class="IO"><a class="IO" href="IO/SS/1/index.html">Square Circle Clock Screensaver</a></h1>
-		<h1 class="IO"><a class="IO" href="IO/SS/2/index.html">Dot Clock Screensaver</a></h1>
-		<h1 class="IO"><a class="IO" href="IO/SS/3/index.html">Random Line Screensaver</a></h1>
-		<h1 class="CF"><a class="CF" href="https://jsbin.com/xewabev">Generative Watercolour Gradient</a></h1>
-		<h1 class="MOB-1"><a class="MOB-1" href="https://invis.io/NKE98Q6P3">Little Free Library App</a></h1>
-		<h1 class="MOB-1"><a class="MOB-1" href="http://s3.amazonaws.com/arena-attachments/1943214/5cce3d210e2f03aada91b956c1aa743e.pdf?1521917137">Little Free Library Presentation</a></h1>
-		<h1 class="IO"><a class="IO" href="https://twitter.com/mad_boz/status/937848604898873344">Pen Plotter Bot Documentation</a></h1>
-		<h1 class="IO"><a class="IO" href="https://twitter.com/mad_boz/lists/thesis/members">Circle Twitter Bots</a></h1>
-		<h1 class="IO"><a class="IO" href="https://twitter.com/testing_a_bot">Ink Blot Twitter Bot</a></h1>
-		<h1 class="WA"><a class="WA" href="http://madison.webadvanced.tk/">Web Advanced Project Site</a></h1>
-		<h1 class="WA"><a class="WA" href="http://madison.webadvanced.tk/sender-receiver/index.html">Humid Browsing Chrome Extension</a></h1>
-		<h1 class="WA"><a class="WA" href="https://rgb-location.tk/">Area Hue</a></h1>
-		<h1 class="WA"><a class="WA" href="http://madison.webadvanced.tk/demos/generate/index.html">Genrative Snowflake Demo</a></h1>
-		<h1 class="WA"><a class="WA" href="http://madison.webadvanced.tk/pattern-generator/make-it-rain/pattern.html">Makin' it Rain Console Animation</a></h1>
-		<h1 class="WA"><a class="WA" href="http://madison.webadvanced.tk/pattern-generator/gradient/gradient.html">ASCII Gradient</a></h1>
-		<h1 class="CI"><a class="CI" href="http://b.parsons.edu/~bozim435/core-interaction/index.html">Core Interaction Project Site</a></h1>
-		<h1 class="CI"><a class="CI" href="http://b.parsons.edu/~bozim435/core-interaction/space/index2b.html">St. Marks Place</a></h1>
-		<h1 class="CC"><a class="CC" href="http://b.parsons.edu/~bozim435/index.html">Creative Computing Project Site</a></h1>
-		<h1 class="CC"><a class="CC" href="http://b.parsons.edu/~bozim435/chrome_extension/clock.html">Constellation Clock Chrome Extension</a></h1>
-		<h1 class="CC"><a class="CC" href="http://b.parsons.edu/~bozim435/constellation-clock-moments/index.html">Constellation Clock Process Page</a></h1>
-		<h1 class="CC"><a class="CC" href="http://b.parsons.edu/~bozim435/week-13/weather.html">Makin' it Rain Weather Animation</a></h1>
-		<h1 class="CC"><a class="CC" href="http://b.parsons.edu/~bozim435/week-13-process/">Makin' it Rain Process Page</a></h1>
-		<h1 class="CC"><a class="CC" href="http://b.parsons.edu/~bozim435/week-3/">Conditional Statement Pattern</a></h1>
-		<h1 class="CC"><a class="CC" href="http://b.parsons.edu/~bozim435/week-5.5/">Conditional Statement Pattern Process Page</a></h1>
-		<h1 class="CC"><a class="CC" href="http://b.parsons.edu/~bozim435/Week-2/">Avocado Drawing Instructions</a></h1>
+		<h1>Madison Bozinoff</h1>
+		<a target='_blank' href="mailto:madison.bozinoff@gmail.com">madison.bozinoff@gmail.com</a>
 
+	</div>
+	
+	<div id="container"></div>
+
+	<div id="bottom">
+
+		<p>
+			&#42; &#42; &#42;
+			</br></br>
+			Madison is a graphic designer in New York.
+		</p>
 
 	</div>
 
 	<script type="text/javascript">
-		
-		var b = document.getElementById("b");
 
-		var r1 = Math.floor(Math.random() * 9 + 2);
-		var r2 = Math.floor(Math.random() * 9 + 2);
+		// * body
 
-		var w = 100 / r1;
-		var h = 100 / r2;
+		var container = document.getElementById("container");
 
-		for (i = 0; i < r1; i++) {
+		var webdings = {
+			
+			icons: ["webdings-01.png", "webdings-02.png", "webdings-03.png"],
+			heading: "Webding Landscapes",
+			date: "2018",
+			descrip: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <a target='_blank' href='CF/WD/index.html'>Link</a> <a target='_blank' href='CF/WD/index.html'>Link</a>"
 
-			for (j = 0; j < r2; j++) {
+		}
 
-				b.innerHTML += '<img src="http://espacepourlavie.ca/sites/espacepourlavie.ca/files/styles/gal-photo-large/public/istock_000015226257_620px_0.jpg?itok=PpAZwCt7" width="' + w + '%" height="' + h + '%">';
+		var egg = {
+			
+			icons: ["egg-01.png"],
+			heading: "Paper.js Egg",
+			date: "2018",
+			descrip: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <a target='_blank' href='http://compform.net/js_lab/js_lab.html?http://sketches2018.compform.net/posts/JatkJ4J4gcsN2fHXx/code'>Link</a>"
+
+		}
+
+		var house = {
+			
+			icons: ["house-01.png", "house-02.png", "house-03.gif"],
+			heading: "Animal Crossing House",
+			date: "2018",
+			descrip: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <a target='_blank' href='CF/AC/index.html'>Link</a>"
+
+		}
+
+		var circle_1 = {
+			
+			icons: ["webdings-01.png", "webdings-02.png", "webdings-03.png"],
+			heading: "Circle Font 1",
+			date: "2018",
+			descrip: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <a target='_blank' href='variations/circle/1/index.html'>Link</a>"
+
+		}
+
+		var circle_2 = {
+			
+			icons: ["webdings-01.png", "webdings-02.png", "webdings-03.png"],
+			heading: "Circle Font 2",
+			date: "2018",
+			descrip: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <a target='_blank' href='variations/circle/2/index.html'>Link</a>"
+
+		}
+
+		var circle_3 = {
+			
+			icons: ["webdings-01.png", "webdings-02.png", "webdings-03.png"],
+			heading: "Circle Font 3",
+			date: "2018",
+			descrip: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <a target='_blank' href='variations/circle/3/index.html'>Link</a>"
+
+		}
+
+		var feather = {
+			
+			icons: ["feather-01.png", "feather-02.png", "feather-03.png"],
+			heading: "Turtle Graphics Feather",
+			date: "2018",
+			descrip: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <a target='_blank' href='http://compform.net/js_lab/js_lab.html?http://sketches2018.compform.net/posts/DKL3MDCC6eBEmZS7Y/code'>Link</a>"
+
+		}
+
+		var bird = {
+			
+			icons: ["bird-01.png", "bird-02.png", "bird-03.png"],
+			heading: "Turtle Graphics Bird",
+			date: "2018",
+			descrip: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <a target='_blank' href='http://compform.net/js_lab/js_lab.html?http://sketches2018.compform.net/posts/vQqFLuGuPZXz7ZqYS/code'>Link</a>"
+
+		}
+
+		var quadrate = {
+			
+			icons: ["quadrate-01.png", "quadrate-02.png", "quadrate-03.png"],
+			heading: "Quadrate",
+			date: "2018",
+			descrip: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <a target='_blank' href='[http://compform.net/js_lab/js_lab.html?http://sketches2018.compform.net/posts/JQAESw2ufRhYYrm9h/code'>Link</a>"
+
+		}
+
+		var map = {
+			
+			icons: ["map-01.png", "map-02.png", "map-03.png", "map-04.png", "map-05.png", "map-06.png", "map-07.png"],
+			heading: "Checkbox Map",
+			date: "2018",
+			descrip: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <a target='_blank' href='https://output.jsbin.com/taniqax'>Link [long load time]</a>"
+
+		}
+
+		var noise = {
+			
+			icons: ["noise-01.png", "noise-02.png", "noise-03.png", "noise-04.png", "noise-05.png", "noise-06.png", "noise-07.png", "noise-08.png", "noise-09.png", "noise-10.png", "noise-11.png", "noise-12.png", "noise-13.png", "noise-14.png", "noise-15.png"],
+			heading: "Noise Font",
+			date: "2018",
+			descrip: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <a target='_blank' href='https://jsbin.com/hevexew'>Link</a>"
+
+		}
+
+		var square = {
+			
+			icons: ["webdings-01.png", "webdings-02.png", "webdings-03.png"],
+			heading: "Square Circle Clock",
+			date: "2018",
+			descrip: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <a target='_blank' href='variations/screen-saver/1/index.html'>Link</a>"
+
+		}
+
+		var dot = {
+			
+			icons: ["webdings-01.png", "webdings-02.png", "webdings-03.png"],
+			heading: "Dot Clock",
+			date: "2018",
+			descrip: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <a target='_blank' href='variations/screen-saver/2/index.html'>Link</a>"
+
+		}
+
+		var gradient = {
+			
+			icons: ["gradient-01.png", "gradient-02.png", "gradient-03.png", "gradient-04.png", "gradient-05.png", "gradient-06.png", "gradient-07.png", "gradient-08.png", "gradient-09.png", "gradient-11.png", "gradient-12.png", "gradient-13.png", "gradient-14.png", "gradient-16.png"],
+			heading: "Watercolor Gradient",
+			date: "2018",
+			descrip: "This program chooses two random colors. <a target='_blank' href='https://jsbin.com/xewabev'>Link</a>"
+
+		}
+
+		var ink = {
+			
+			icons: ["ink-01.jpg", "ink-02.jpg", "ink-03.jpg", "ink-04.jpg"],
+			heading: "Ink Blot Twitter Bot",
+			date: "2018",
+			descrip: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <a target='_blank' href='https://twitter.com/testing_a_bot'>Link</a>"
+
+		}
+
+		// * brain
+
+		var array = [webdings, egg, house, circle_1, circle_2, circle_3, feather, bird, quadrate, map, noise, square, dot, gradient, ink];
+		shuffle(array);
+
+		for (var i = 0; i < array.length; i++) {
+
+			container.innerHTML += "</br><p>" + array[i].heading + ", " + array[i].date + "</br>" + array[i].descrip + "</p>";
+
+			for (var j = 0; j < array[i].icons.length; j++) {
+
+				container.innerHTML += "<img src='assets/images/" + array[i].icons[j] + "'>";
 
 			}
+
+		}
+
+		// * toggle
+
+		container.onclick = function(event) {
+
+			var target = event.target;
+
+			if (target.tagName == "IMG") {
+
+				if (target.style.height !== "500px") {
+
+		    		target.style.height = "500px";
+
+			    } else {
+
+			        target.style.height = "88px";
+
+			    }
+
+			}
+
+		}
+
+		// * shuffle
+
+		function shuffle(array) {
+
+		    var r, x, i;
+
+		    for (i = array.length - 1; i > 0; i--) {
+
+		        r = Math.floor(Math.random() * (i + 1));
+		        x = array[i];
+		        array[i] = array[r];
+		        array[r] = x;
+
+		    }
+
+		    return array;
 
 		}
 
