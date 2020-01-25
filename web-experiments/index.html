@@ -12,16 +12,17 @@
 
 	<script>
 
-		window.dataLayer = window.dataLayer || [];
-		function gtag(){dataLayer.push(arguments);}
-		gtag('js', new Date());
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
 
-		gtag('config', 'UA-156887308-1');
-
+	  gtag('config', 'UA-156887308-1');
+	  
 	</script>
+
 	
 	<!-- * style -->
-	
+
 	<style type="text/css">
 
 		@font-face {
@@ -268,10 +269,10 @@
 
 		var quadrate = {
 			
-			icons: ["quadrate-01.png", "quadrate-02.png", "quadrate-03.png"],
+			icons: ["quadrate-franke.jpg", "quadrate-01.png", "quadrate-02.png", "quadrate-03.png"],
 			heading: "Quadrate",
 			date: "2018",
-			descrip: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <a target='_blank' href='[http://compform.net/js_lab/js_lab.html?http://sketches2018.compform.net/posts/JQAESw2ufRhYYrm9h/code'>Link</a>"
+			descrip: "Herbert Franke's Quadrate (fig. 1) is an early work of computer art. The following images (fig. 2–4) are a re-creation in processing using turtles graphics. <a target='_blank' href='[http://compform.net/js_lab/js_lab.html?http://sketches2018.compform.net/posts/JQAESw2ufRhYYrm9h/code'>Link</a>"
 
 		}
 
@@ -280,7 +281,7 @@
 			icons: ["map-01.png", "map-02.png", "map-03.png", "map-04.png", "map-05.png", "map-06.png", "map-07.png"],
 			heading: "Checkbox Map",
 			date: "2018",
-			descrip: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <a target='_blank' href='https://output.jsbin.com/taniqax'>Link [long load time]</a>"
+			descrip: "Response to a coding challenge to generate a map using Perlin Noise. This program creates a field of checkboxes and assigns each checkbox a numeric value using noise. The checkbox is active on the condition that its value is larger than the median value. Caution: the program takes a long time to load. <a target='_blank' href='https://output.jsbin.com/taniqax'>Link</a>"
 
 		}
 
@@ -289,7 +290,7 @@
 			icons: ["noise-01.png", "noise-02.png", "noise-03.png", "noise-04.png", "noise-05.png", "noise-06.png", "noise-07.png", "noise-08.png", "noise-09.png", "noise-10.png", "noise-11.png", "noise-12.png", "noise-13.png", "noise-14.png", "noise-15.png"],
 			heading: "Noise Font",
 			date: "2018",
-			descrip: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <a target='_blank' href='https://jsbin.com/hevexew'>Link</a>"
+			descrip: "The letter &ldquo;M&rdquo; drawn with noise. The character of the letterform changes based on the randomized frequency of the noise. The font's character ranges from handwriting-esque to metal. <a target='_blank' href='https://jsbin.com/hevexew'>Link</a>"
 
 		}
 
@@ -322,16 +323,34 @@
 
 		var ink = {
 			
-			icons: ["ink-01.jpg", "ink-02.jpg", "ink-03.jpg", "ink-04.jpg"],
+			icons: ["ink-01.jpg", "ink-02.jpg", "ink-03.jpg", "ink-04.jpg", "ink-05.jpg", "ink-06.jpg", "ink-07.jpg", "ink-08.jpg"],
 			heading: "Ink Blot Twitter Bot",
 			date: "2018",
 			descrip: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <a target='_blank' href='https://twitter.com/testing_a_bot'>Link</a>"
 
 		}
 
+		var flower = {
+
+			icons: ["flower-01.png", "flower-02.png", "flower-03.png", "flower-04.png", "flower-05.png", "flower-06.png", "flower-07.png", "flower-08.png"],
+			heading: "Flower Generator",
+			date: "2018",
+			descrip: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <a target='_blank' href='#'>Link</a>"
+
+		}
+
+		var split = {
+
+			icons: ["split-01.png", "split-02.png", "split-03.png", "split-04.png", "split-05.png", "split-06.png", "split-07.png"],
+			heading: "Screen Split",
+			date: "2018",
+			descrip: "This program divides the canvas vertically into a random number of rows then divides those rows into a random number of equal-width columns. <a target='_blank' href='#'>Link</a>"
+
+		}
+
 		// * brain
 
-		var array = [webdings, egg, house, circle_1, circle_2, circle_3, feather, bird, quadrate, map, noise, square, dot, gradient, ink];
+		var array = [webdings, egg, house, circle_1, circle_2, circle_3, feather, bird, quadrate, map, noise, square, dot, gradient, ink, flower, split];
 		shuffle(array);
 
 		for (var i = 0; i < array.length; i++) {
