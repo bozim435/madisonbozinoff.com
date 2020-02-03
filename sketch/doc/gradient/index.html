@@ -1,10 +1,10 @@
 <!doctype html>
 <html>
 <head>
-
 	<title>Watercolor Gradient</title>
 
-	<link rel="icon" href="x-white-grey.png" type="image/png">
+
+	<link rel="icon" href="x.png" type="image/png">
 
 	<style type="text/css">
 
@@ -37,7 +37,7 @@
 		var selected = false;
 
 		function setup() {
-			for (i = 0; i < 24; i++) {
+			for (i = 0; i < 32; i++) {
 				var image = document.createElement("IMG");
 				container.appendChild(image);
 			}
@@ -63,7 +63,7 @@
 				j = i - 1;
 				images[j].src = target.src;
 			}
-			target.src = "x-white-grey.png";
+			target.src = "x.png";
 		}
 
 		function all_colours() {

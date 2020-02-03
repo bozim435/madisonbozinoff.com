@@ -74,8 +74,7 @@ function draw() {
 }
 
 function mousePressed() {
-  clear();
-  redraw();
+  
 }
 
 
