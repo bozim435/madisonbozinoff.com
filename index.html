@@ -304,6 +304,25 @@
 
 		}
 
+		// * shuffle
+
+		function shuffle(array) {
+
+		    var r, x, i;
+
+		    for (i = array.length - 1; i > 0; i--) {
+
+		        r = Math.floor(Math.random() * (i + 1));
+		        x = array[i];
+		        array[i] = array[r];
+		        array[r] = x;
+
+		    }
+
+		    return array;
+
+		}
+
 		// * favicon
 
 		window.setInterval(function() {
@@ -330,25 +349,6 @@
 		    
 		    favicon.setAttribute("type", "image/png");
 		    favicon.setAttribute("href", image);
-
-		}
-
-		// * shuffle
-
-		function shuffle(array) {
-
-		    var r, x, i;
-
-		    for (i = array.length - 1; i > 0; i--) {
-
-		        r = Math.floor(Math.random() * (i + 1));
-		        x = array[i];
-		        array[i] = array[r];
-		        array[r] = x;
-
-		    }
-
-		    return array;
 
 		}
 
