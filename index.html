@@ -6,8 +6,6 @@
 
 	<meta name="viewport" content="width=1000, user-scalable=0"/>
 
-	<!-- * google analytics -->
-
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-156887308-1"></script>
 
 	<script>
@@ -20,16 +18,34 @@
 
 	</script>
 
+	<script type="text/javascript">
+	    var MTUserId='6c999b89-5224-4fce-8b0d-439f047b1a43';
+	    var MTFontIds = new Array();
+
+	    MTFontIds.push("5610704"); // Monotype Grotesque® W01 Roman 
+	    (function() {
+	        var mtTracking = document.createElement('script');
+	        mtTracking.type='text/javascript';
+	        mtTracking.async='true';
+	        mtTracking.src='mtiFontTrackingCode.js';
+
+	        (document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(mtTracking);
+	    })();
+	</script>
+
+
 	<!-- * style -->
 
 	<style type="text/css">
+
+		/*
+		This CSS resource incorporates links to font software which is the valuable copyrighted property of Monotype and/or its suppliers. You may not attempt to copy, install, redistribute, convert, modify or reverse engineer this font software. Please contact Monotype with any questions regarding Web Fonts: http://www.fonts.com
+		*/
 		
-		@font-face {
-
-			font-family: "grotesque-mt";
-			src: url("assets/fonts/grotesque-mt.otf");
-
-		}
+	    @font-face{
+	        font-family: "Grotesque MT W01 Regular";
+	        src: url("assets/fonts/5610704/70351e61-6d52-4e64-bb4c-1e003b3208ea.woff2") format("woff2"),url("assets/fonts/5610704/efa3e07e-b638-4be8-ba7a-f85fba05ef40.woff") format("woff");
+	    }
 
 		* {
 
@@ -47,7 +63,7 @@
 		body {
 
 			margin: 1.75em 2.5em;
-			font-family: grotesque-mt, arial, sans-serif;
+			font-family: Grotesque MT W01 Regular, arial, sans-serif;
 			font-size: 18px;
 			line-height: 1.25em;
 			background: #b7b8b9;
@@ -197,7 +213,7 @@
 
 	</div>
 
-	<script type="text/javascript">
+	<script type="text/javascript"> 
 
 		// * body
 
