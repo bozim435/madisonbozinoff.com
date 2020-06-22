@@ -4,12 +4,15 @@
 
 	<title>Schedule</title>
 
+	<link rel="icon" href="../assets/favicons/home-favicon-01.png" type="image/png">
+
 	<style type="text/css">
 
 
 		*::selection {
 
-			color: palegreen;
+			color: greenyellow;
+			background: white;
 
 		}
 
@@ -32,20 +35,145 @@
 
 		}
 
+		p {
+			font-weight: bold;
+		}
+
+		h1, p {
+			display: inline-block;
+		}
+
+		#meeting-schedule {
+			width: 450px;
+		}
+
+		#meeting-schedule > div {
+			border-top: 2px solid greenyellow;
+		}
+
+		#meeting-schedule > div:last-of-type {
+			border-bottom: 2px solid greenyellow;
+		}
+
 	</style>
 
 </head>
 <body>
-	
 	<div id="container">
 
-		<h1>Is Madison in a meeting right now?</h1>
-		<p>Y/N</p>
+		<div>
+			<h1>The current time is</h1>
+			<p id="time">00:00AM</p>
+		</div>
 
-		<h1>Meeting schedule this week:</h1>
-		<p>Schedule</p>
+		<div>
+			<h1>Is Madison in a meeting right now?</h1>
+			<p id="meeting">No</p>
+		</div>
 
+		<div id="meeting-schedule">
+			<h1>Meeting schedule this week:</h1>
+			<div>
+				<p>
+					Monday
+					<br>
+					10:30AM–11:00AM
+				</p>
+			</div>
+			<div>
+				<p>
+					Tuesday
+					<br>
+					10:30AM–11:00AM
+				</p>
+			</div>
+			<div>
+				<p>
+					Wednesday
+					<br>
+					11:15AM–12:00AM
+				</p>
+			</div>
+			<div>
+				<p>
+					Thursday
+					<br>
+					10:30AM–11:00AM
+				</p>
+			</div>
+		</div>
+	
 	</div>
+
+	<script type="text/javascript">
+
+		var d = new Date();
+
+		setInterval(function() {
+			d = clock();
+			updateTime(d);
+			updateMeeting(d);
+		}, 1000);
+		
+		function clock() {
+			d = new Date();
+			var w = d.getDay();
+			var h = d.getHours();
+			var am = "AM";
+			var m = d.getMinutes();
+			var s = d.getSeconds();
+
+			if (h > 12) {
+				h = h - 12;
+				am = "PM"
+			}
+
+			// if (h < 10) {
+			// 	h = "0" + h;
+			// }
+
+			if (m < 10) {
+				m = "0" + m;
+			}
+
+			if (s < 10) {
+				s = "0" + s;
+			}
+
+			return {
+				w : w,
+				h : h,
+				am : am,
+				m : m,
+				s : s
+			}
+		}
+
+		function updateTime(d) {
+			document.getElementById("time").innerHTML = d.h + ":" + d.m + d.am;
+		}
+
+		function updateMeeting(d) {
+			var m = document.getElementById("meeting");
+
+			if (d.w > 0 && d.w < 3 || d.w == 4) {
+				if (d.h == 10 && d.m > 30) {
+					m.innerHTML = "Yes";
+				} else {
+					m.innerHTML = "No";
+				}
+			} else if (d.w == 3) {
+				if (d.h == 11 && d.m > 15) {
+					m.innerHTML = "Yes";
+				} else {
+					m.innerHTML = "No";
+				}
+			} else {
+				m.innerHTML = "No";
+			}
+		}
+
+	</script>
 
 </body>
 </html>
