@@ -23,7 +23,26 @@ canvas {
 
 }
 
-#container {
+a {
+	position: absolute;
+	color: black;
+	margin-top: 20px;
+	padding: 10px;
+	background: gainsboro;
+	text-decoration: none;
+	border-radius: 6px;
+
+}
+
+#buttons-container {
+	width: 500px;
+	display: inline-block;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+#code-container {
 	
 	display: inline-block;
 	position: absolute;

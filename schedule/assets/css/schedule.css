@@ -1,0 +1,61 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+*::selection {
+	color: greenyellow;
+}
+
+body {
+	display: inline-block;
+	margin: 2.25em 2.5em;
+	font-family: serif;
+	font-size: 22px;
+	letter-spacing: 1px;
+	line-height: 1.25em;
+	background: mintcream;
+	color: purple;
+}
+
+.container {
+	width: 450px;
+}
+
+.space-lg {
+	padding-bottom: 1.75em;
+}
+
+.space-sm {
+	padding-bottom: .65em;
+}
+
+.space-md {
+	padding: 1em 0;
+}
+
+.border {
+	border-top: 2px solid greenyellow;
+}
+
+.border:last-of-type {
+	border-bottom: 2px solid greenyellow;
+}
+
+@media only screen 
+and (min-device-width: 375px) 
+and (max-device-width: 812px){ 
+
+	body {
+		margin: 1.75em;
+		font-family: serif;
+		font-size: 55px;
+		letter-spacing: 2px;
+		line-height: 1.25em;
+	}
+
+	.container {
+		width: 100%;
+	}
+
+}

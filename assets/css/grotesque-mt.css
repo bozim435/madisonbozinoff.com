@@ -1,0 +1,8 @@
+/*
+This CSS resource incorporates links to font software which is the valuable copyrighted property of Monotype and/or its suppliers. You may not attempt to copy, install, redistribute, convert, modify or reverse engineer this font software. Please contact Monotype with any questions regarding Web Fonts: http://www.fonts.com
+*/
+
+@font-face{
+    font-family: "Grotesque MT W01 Regular";
+    src: url("../fonts/5610704/70351e61-6d52-4e64-bb4c-1e003b3208ea.woff2") format("woff2"),url("../fonts/5610704/efa3e07e-b638-4be8-ba7a-f85fba05ef40.woff") format("woff");
+}

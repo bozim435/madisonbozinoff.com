@@ -132,3 +132,7 @@ function drawTop() {
 	t.popState();
 
 }
+
+function reset() {
+  redraw();
+}
