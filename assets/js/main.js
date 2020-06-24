@@ -1,6 +1,6 @@
 // Content
 
-var container = document.getElementById("container");
+var projectsContainer = document.getElementsByClassName("projects-container")[0];
 
 var variations1 = {
 	icons: ["thesis-1-twitter-01.png", "thesis-1-twitter-10-side.png", "thesis-1-twitter-05.png", "thesis-1-pen-plotter-01.png", "thesis-1-pen-plotter-02.png", "thesis-1-pen-plotter-03.png", "thesis-1-pen-plotter-04.png", "thesis-1-pen-plotter-05.png", "thesis-1-pen-plotter-06.png", "thesis-1-pen-plotter-07.png", "thesis-1-pen-plotter-08.png", "thesis-1-pen-plotter-09.png", "thesis-1-pen-plotter-10.png"],
@@ -41,7 +41,7 @@ var readingWithoutPages = {
 	icons: ["reading-demo-01.png", "reading-demo-02.png", "reading-demo-03.png", "reading-demo-04.png" , "reading-piece-01.png", "reading-piece-02.png", "reading-piece-03.png"],
 	heading: "Reading without Pages",
 	date: "2018",
-	descrip: "Two mircosites made in Reading without Pages, a class about the design of publications online. Students spent one week preparing a coding demo and one week redesigning an article. </br> 1. An instructional site for CSS Grids that is structured within a series of nested grids. Users can toggle the visibility of black gridlines that describe the architecture of the page. <a href='https://madboz.github.io/reading-without-pages/demo' target='blank'>CSS Grids Demo</a> </br> 2. Alternate reading experience for \"Something is Wrong on the Internet\" by James Bridle cuts and remixes the article in a similar way the videos he writes about remix TV show footage. <a href='https://madboz.github.io/reading-without-pages/piece' target='blank'>Something is Wrong on the Internet</a>"
+	descrip: "Two mircosites made in Reading without Pages, a class about the design of publications online. Students spent one week preparing a coding demo and one week redesigning an article.</p><p>1. An instructional site for CSS Grids that is structured within a series of nested grids. Users can toggle the visibility of black gridlines that describe the architecture of the page. <a href='https://madboz.github.io/reading-without-pages/demo' target='blank'>CSS Grids Demo</a></p><p>2. Alternate reading experience for \"Something is Wrong on the Internet\" by James Bridle cuts and remixes the article in a similar way the videos he writes about remix TV show footage. <a href='https://madboz.github.io/reading-without-pages/piece' target='blank'>Something is Wrong on the Internet</a>"
 }
 
 var sidebar = {
@@ -57,10 +57,10 @@ var array = [variations1, variations2, littleFreeLibrary, matter, rgbArea, readi
 shuffleArray(array);
 
 for (var i = 0; i < array.length; i++) {
-	container.innerHTML += "</br><p>" + array[i].heading + ", " + array[i].date + "</br>" + array[i].descrip + "</p>";
+	projectsContainer.innerHTML += "<div class='project-copy'><div class='project-copy__title'" + array[i].heading + ", " + array[i].date + "</div></br>" + array[i].descrip + "</div>";
 
 	for (var j = 0; j < array[i].icons.length; j++) {
-		container.innerHTML += '<img src="assets/images/' + array[i].icons[j] + '">';
+		projectsContainer.innerHTML += '<img src="assets/images/' + array[i].icons[j] + '">';
 	}
 }
 

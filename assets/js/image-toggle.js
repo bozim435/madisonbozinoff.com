@@ -1,4 +1,4 @@
-container.onclick = function(event) {
+projectsContainer.onclick = function(event) {
 	var target = event.target;
 
 	if (target.tagName == "IMG") {
