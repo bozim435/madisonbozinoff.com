@@ -48,12 +48,6 @@ function updateMeeting(d) {
 		} else {
 			meeting.innerHTML = "No";
 		}
-	} else if (d.weekday == 3) {
-		if (d.hours == 11 && d.minutes > 15) {
-			meeting.innerHTML = "Yes";
-		} else {
-			meeting.innerHTML = "No";
-		}
 	} else {
 		meeting.innerHTML = "No";
 	}
