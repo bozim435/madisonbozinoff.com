@@ -99,6 +99,10 @@ span {
 	margin-right: 1em;
 }
 
+.footer > p {
+	text-indent: 0;
+}
+
 .projects-container > img {
 	margin: 0.5em 1.75em 0.5em 0;
 	height: 88px;
