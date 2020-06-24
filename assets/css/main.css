@@ -76,7 +76,7 @@ a:hover {
 	cursor: pointer;
 }
 
-/*p {
+p {
 	max-width: 670px;
 	margin: 1em 0 1.5em 0;
 	text-indent: 2em;
@@ -84,7 +84,7 @@ a:hover {
 
 p + p {
     margin-top: -1.5em;
-}*/
+}
 
 li {
 	list-style-type: none;

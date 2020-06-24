@@ -57,7 +57,7 @@ var array = [variations1, variations2, littleFreeLibrary, matter, rgbArea, readi
 shuffleArray(array);
 
 for (var i = 0; i < array.length; i++) {
-	projectsContainer.innerHTML += "<div class='project-copy'><div class='project-copy__title'" + array[i].heading + ", " + array[i].date + "</div></br>" + array[i].descrip + "</div>";
+	projectsContainer.innerHTML += "</br><p>" + array[i].heading + ", " + array[i].date + "</div></br>" + array[i].descrip + "</div>";
 
 	for (var j = 0; j < array[i].icons.length; j++) {
 		projectsContainer.innerHTML += '<img src="assets/images/' + array[i].icons[j] + '">';
