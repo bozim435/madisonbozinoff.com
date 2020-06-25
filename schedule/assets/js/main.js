@@ -49,7 +49,7 @@ function updateMeeting(d) {
 			meeting.innerHTML = "No";
 		}
 	} else if (d.weekday == 4) {
-		if (d.hours == 12 && d.minutes < 30) {
+		if (d.hours == 12 && d.minutes > 30) {
 			meeting.innerHTML = "Yes";
 		} else {
 			meeting.innerHTML = "No";
