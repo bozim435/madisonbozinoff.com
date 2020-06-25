@@ -16,8 +16,11 @@ body {
 	color: white;
 }
 
-.header {
-
+.header,
+.footer,
+.project__text {
+	max-width: 670px;
+	margin-bottom: 2em;
 }
 
 .footer {
@@ -31,29 +34,56 @@ body {
 	
 }
 
-.project-copy {
-	max-width: 670px;
+.project__body > p {
+	text-indent: 2em;
 }
 
-.project-copy__title {
+.project__body > p:first-of-type {
+	text-indent: 0;
+}
+
+.project__title {
 	display: block;
 	text-indent: 2em;
 }
 
-.project-copy__body {
+.project__body {
 
 }
 
-.project__link {
+.project__images {
+	margin-bottom: .75em;
+}
+
+.project__image {
+	margin-right: 1.5em;
+	margin-bottom: 1em;
+	height: 88px;
+	display: inline-block;
+	background: white;
+}
+
+.project__image:hover {
+	cursor: pointer;
+}
+
+.link, 
+.link--alias {
+	position: relative;
+	bottom: 2px;
+	border-bottom: solid 2px white;
+	text-decoration: none;
+	color: inherit;
+}
+
+.link:hover {
 
 }
 
-.project__link:hover {
-
-}
-
-.project__link--alias, 
-a.project__link--alias {
+.link--alias, 
+a.link--alias,
+.link--alias:hover,
+a.link--alias:hover {
 	cursor: alias;
 }
 
@@ -62,13 +92,13 @@ h1 {
 	font-weight: inherit;
 }
 
-a {
+/*a {
 	position: relative;
 	bottom: 2px;
 	text-decoration: none;
 	color: inherit;
 	border-bottom: solid 2px white;
-}
+}*/
 
 a:hover {
 	color: palegreen;
@@ -76,7 +106,7 @@ a:hover {
 	cursor: pointer;
 }
 
-p {
+/*p {
 	max-width: 670px;
 	margin: 1em 0 1.5em 0;
 	text-indent: 2em;
@@ -84,7 +114,7 @@ p {
 
 p + p {
     margin-top: -1.5em;
-}
+}*/
 
 li {
 	list-style-type: none;
@@ -93,25 +123,6 @@ li {
 
 li > a {
 	border-bottom: none;
-}
-
-span {
-	margin-right: 1em;
-}
-
-.footer > p {
-	text-indent: 0;
-}
-
-.projects-container > img {
-	margin: 0.5em 1.75em 0.5em 0;
-	height: 88px;
-	display: inline-block;
-	background: white;
-}
-
-.projects-container > img:hover {
-	cursor: pointer;
 }
 
 @media only screen 
