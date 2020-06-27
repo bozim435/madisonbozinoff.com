@@ -6,7 +6,7 @@ console.log(projects);
 var projectsInHTML;
 
 for (var i = projects.length - 1; i >= 0; i--) {
-	projects[i]
+	console.log(projects[i].innerHTML);
 }
 // console.log(projects[0].innerHTML);
 
