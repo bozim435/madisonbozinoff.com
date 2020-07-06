@@ -1,40 +1,30 @@
 * {
-
 	padding: 0; 
 	margin: 0;
-
 } 
 
 body {
-	
 	font-family: courier;
-	font-size: 16px;
+	font-size: 14px;
 	font-weight: bold;
 	color: teal;
-
 }
 
 canvas {
-	
 	position: absolute;
-	top: 45%;
+	top: 6.2rem;
 	left: 50%;
-	transform: translate(-50%, -50%);
-
+	transform: translateX(-50%);
 }
 
-a {
+.container {
 	position: absolute;
-	color: black;
-	margin-top: 20px;
-	padding: 10px;
-	background: gainsboro;
-	text-decoration: none;
-	border-radius: 6px;
-
+	left: 50%;
+	width: 500px;
+	transform: translateX(-50%);
 }
 
-#buttons-container {
+.buttons-container {
 	width: 500px;
 	display: inline-block;
 	position: absolute;
@@ -42,8 +32,30 @@ a {
 	transform: translateX(-50%);
 }
 
-#code-container {
-	
+.button,
+a.button {
+	position: relative;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+	margin-right: 5px;
+	padding: 10px;
+	font-family: inherit;
+	font-weight: inherit;
+	font-size: inherit;
+	text-decoration: none;
+	border: none;
+	outline: none;
+	border-radius: 6px;
+	color: inherit;
+	background: lightcyan;
+}
+
+
+.button:hover {
+	cursor: pointer;
+}
+
+/*.code-container {
 	display: inline-block;
 	position: absolute;
 	top: 90%;
@@ -57,15 +69,11 @@ a {
 
 }
 
-#code-header {
-
+.code__header {
 	padding: 10px;
 	border-bottom: solid 2px teal;
-
 }
 
-#code-body {
-
+.code__body {
 	padding: 10px;
-
-}
+}*/

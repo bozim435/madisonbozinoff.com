@@ -1,3 +1,6 @@
+var EXPORT = false;
+var button;	
+
 var t;
 
 function setup() {
@@ -131,8 +134,4 @@ function drawTop() {
 
 	t.popState();
 
-}
-
-function reset() {
-  redraw();
 }
