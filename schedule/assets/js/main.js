@@ -42,12 +42,19 @@ function updateTime(d) {
 function updateMeeting(d) {
 	var meeting = document.getElementById("meeting");
 
-	if (d.weekday > 0 && d.weekday < 4) {
+	if (d.weekday > 0 && d.weekday < 3) {
 		if (d.hours == 10 && d.minutes > 30) {
 			meeting.innerHTML = "Yes";
 		} else {
 			meeting.innerHTML = "No";
 		}
+	} else if (d.weekday == 3) {
+		if ((d.hours == 14 && d.minutes > 30) && (d.hours == 15 && d.minutes < 30)) {
+			meeting.innerHTML = "Yes";
+		} else {
+			meeting.innerHTML = "No";
+		}
+
 	} else if (d.weekday == 4) {
 		if (d.hours == 11 && d.minutes > 30) {
 			meeting.innerHTML = "Yes";
