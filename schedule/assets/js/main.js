@@ -47,6 +47,8 @@ function updateMeeting(d) {
 			meeting.innerHTML = "Yes";
 		} else if (d.hours > 11 && d.hours < 15) {
 			meeting.innerHTML = "Yes";
+		} else if (d.hours == 17) {
+			meeting.innerHTML = "Yes";
 		} else {
 			meeting.innerHTML = "No";
 		}
