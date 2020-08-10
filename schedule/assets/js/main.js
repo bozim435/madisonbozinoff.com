@@ -45,9 +45,9 @@ function updateMeeting(d) {
 	if (d.weekday = 1) {
 		if (d.hours == 10 && d.minutes > 30) {
 			meeting.innerHTML = "Yes";
-		} else if (d.hours = 11 && d.minutes > 30) {
+		} else if (d.hours == 11 && d.minutes > 30) {
 			meeting.innerHTML = "Yes";
-		} else if (d.hours = 12 && d.minutes < 30) {
+		} else if (d.hours == 12 && d.minutes < 30) {
 			meeting.innerHTML = "Yes";
 		} else {
 			meeting.innerHTML = "No";
