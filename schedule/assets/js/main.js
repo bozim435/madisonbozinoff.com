@@ -45,25 +45,16 @@ function updateMeeting(d) {
 	if (d.weekday = 1) {
 		if (d.hours == 10 && d.minutes > 30) {
 			meeting.innerHTML = "Yes";
-		} else if (d.hours > 11 && d.hours < 15) {
+		} else if (d.hours = 11 && d.minutes > 30) {
 			meeting.innerHTML = "Yes";
-		} else if (d.hours == 17) {
+		} else if (d.hours = 12 && d.minutes < 30) {
 			meeting.innerHTML = "Yes";
 		} else {
 			meeting.innerHTML = "No";
 		}
 
-	} else if (d.weekday > 1 && d.weekday < 4) {
+	} else if (d.weekday > 1 && d.weekday < 5) {
 		if (d.hours == 10 && d.minutes > 30) {
-			meeting.innerHTML = "Yes";
-		} else {
-			meeting.innerHTML = "No";
-		}
-
-	} else if (d.weekday == 4) {
-		if (d.hours == 11 && d.minutes > 30) {
-			meeting.innerHTML = "Yes";
-		} else if (d.hours > 12 && d.hours < 15) {
 			meeting.innerHTML = "Yes";
 		} else {
 			meeting.innerHTML = "No";
