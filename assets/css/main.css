@@ -8,6 +8,10 @@
 }
 
 body {
+	background: #b7b8b9;
+}
+
+.site-container {
 	margin: 1.75em 2.5em;
 	font-family: Grotesque MT W01 Regular, helvetica, arial, sans-serif;
 	font-size: 18px;
