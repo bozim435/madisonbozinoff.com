@@ -42,7 +42,7 @@ function updateTime(d) {
 function updateMeeting(d) {
 	var meeting = document.getElementById("meeting");
 
-	if (d.weekday > 0 && d.weekday < 6) {
+	if (d.weekday > 0 && d.weekday < 5) {
 		if (d.hours == 10 && d.minutes < 30) {
 			meeting.innerHTML = "Yes";
 		} else {
