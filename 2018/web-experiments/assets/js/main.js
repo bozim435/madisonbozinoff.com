@@ -19,7 +19,7 @@ const webdingLandscapes = {
 const openHouse = {
     title: "Open House",
     date: "2018",
-    body: ["An OpenSCAD program that builds Animal Crossing-inspired plots. It's modules are roof, house, tree, fruit, plot. An early version of the house was 3D printed for me (fig. 4)."],
+    body: ["An OpenSCAD program that builds Animal Crossing-inspired plots. It's modules are roof, house, tree, fruit, plot. An early version of the house was 3D printed (fig. 4)."],
     links: [],
     images: ["house-01.png", "house-02.png", "house-03.gif", "house-04.png"]
 }

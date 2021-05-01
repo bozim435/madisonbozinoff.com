@@ -100,7 +100,7 @@ const rgbArea = {
 const readingWithoutPages = {
     title: "Reading without Pages",
     date: "2018",
-    body: ["Two mircosites made in Reading without Pages, a class about the design of publications online. Students spent a week creating a coding demo and one week redesigning an article.", "Microsite 1 &mdash; An instructional site for CSS Grids that is structured within a series of nested grids. Users can toggle the visibility of black gridlines that describe the architecture of the page. Microsite 2 &mdash; An alternate reading experience for &ldquo;Something is Wrong on the Internet&rdquo; by James Bridle cuts and remixes the article in a similar way the videos he writes about."],
+    body: ["Two mircosites made in Reading without Pages, a class about the design of publications online. Students spent a week creating a coding demo and one week redesigning an article.", "Microsite 1 is an instructional site for CSS Grids that is structured within a series of nested grids. Users can toggle the visibility of black gridlines that describe the architecture of the page. Microsite 2 is an alternate reading experience for &ldquo;Something is Wrong on the Internet&rdquo; by James Bridle cuts and remixes the article in a similar way the videos he writes about."],
     links: [
         {
             displayText: "CSS Grids Demo",
