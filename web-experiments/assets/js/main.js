@@ -69,7 +69,7 @@ const checkMap = {
 const noiseFont = {
     title: "Noise Font",
     date: "2018",
-    body: ["The letter &quot;M&quot; drawn with noise. The character of the letterform changes based on the randomized frequency of the noise, ranging from handwriting-esque to metal."],
+    body: ["The letter &quot;M&quot; drawn with Perlin Noise. The letterform's visual character changes based on a randomized noise frequency, ranging from handwriting-esque to heavy metal."],
     links: [
         {
             displayText: "Sketch & code",
