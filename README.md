@@ -1,2 +1,1 @@
-# Madison Bozinoff
-madisonbozinoff.com
+# madisonbozinoff.com
