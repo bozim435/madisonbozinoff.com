@@ -83,7 +83,8 @@ body {
 .link--alias {
 	position: relative;
 	bottom: 2px;
-	border-bottom: solid 2px #b7b8b9;
+	/*border-bottom: solid 2px #b7b8b9;*/
+	border-bottom: solid 2px #a1a1a1;
 	text-decoration: none;
 	color: inherit;
 }
