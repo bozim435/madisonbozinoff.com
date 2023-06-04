@@ -119,7 +119,7 @@ const readingWithoutPages = {
 const sidebar = {
     title: "Sidebar",
     date: "2016",
-    body: "Sidebar is a publication about internet culture. The journal features theory, personal stories, poetry, and fine art centered on the theme of the internet. Related articles are featured at the end of each article, encouraging the reader to experience the book in a non-linear fashion.",
+    body: "Sidebar is a publication about internet culture. The journal features theory, anecdotes, poetry, and fine art. Related articles are featured at the end of each article, encouraging the reader to experience the book in a non-linear fashion.",
     links: [],
     images: ["sidebar-01.png", "sidebar-02.png", "sidebar-03.png", "sidebar-04.png", "sidebar-05.png", "sidebar-06.png", "sidebar-07.png", "sidebar-08.png", "sidebar-09.png", "sidebar-10.png", "sidebar-11.png", "sidebar-12.png"]
 }
@@ -172,7 +172,7 @@ for (let i = 0; i < content.length; i++){
 
     for (var m = 0; m < content[i].images.length; m++) {
         let image = createDiv("img", "project__image");
-        image.src = "assets/images/" + content[i].images[m];
+        image.src = "../assets/images/" + content[i].images[m];
         projectImages.append(image);
     }
 }

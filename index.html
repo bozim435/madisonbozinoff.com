@@ -4,9 +4,10 @@
 
 <title>Madison Bozinoff</title>
 
-<meta http-equiv="refresh" content="2.5" >
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-T9XPF0JL8V"></script>
+<script src="assets/js/google-analytics.js"></script>
 <script src="assets/js/grotesque-mt.js"></script>
 
 <link rel="stylesheet" type="text/css" href="assets/css/grotesque-mt.css">
@@ -15,30 +16,66 @@
 
 <style type="text/css">
 
-  * {
-    padding: 0; 
-    margin: 0;
-  }
+* {
+  padding: 0; 
+  margin: 0;
+}
 
-  .site-container {
-    mix-blend-mode: exclusion;
-  }
+.site-container {
+  mix-blend-mode: exclusion;
+}
 
-  img {
-    position: fixed;
-    width: 2400px;
-    height: 2400px;
-    z-index: -10;
-  }
+img {
+  position: fixed;
+  width: 2400px;
+  height: 2400px;
+  z-index: -10;
+}
 
-  .large {
-    font-size: 28;
-    line-height: 36;
-  }
+.large {
+  font-size: 28;
+  line-height: 36;
+}
 
-  .header {
-    transform: rotate(-5deg);
-  }
+.site-container {
+	margin: 20px 28px;
+	font-family: CMU Typewriter Text Variable Width;
+	font-weight: normal;
+	font-style: italic;
+	font-size: 24px;
+	line-height: 1.25em;
+	color: #bbb;
+}
+
+.header,
+.footer,
+.project__text {
+	max-width: 100%;
+}
+
+.link, 
+.link--alias {
+  border-bottom: solid 2px #bbb;
+}
+
+.link:hover,
+a.link:hover,
+.link--alias:hover,
+a.link--alias:hover {
+  border-bottom: solid 2px goldenrod;
+	color: goldenrod;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	text-transform: uppercase;
+	padding-bottom: 10px;
+}
+
+p {
+	padding-bottom: 15px;
+	color: inherit;
+}
+
 </style>
 
 </head>
@@ -47,12 +84,25 @@
 <div class="site-container">
   <div class="header">
     <h1>Madison Bozinoff</h1>
-    <a class="link--alias" href="mailto:madison.bozinoff@gmail.com" target="blank">madison.bozinoff@gmail.com</a>
+    <p>Senior designer at Linked by Air. Contact: <a class="link--alias" href="mailto:madison.bozinoff@gmail.com" target="blank">madison.bozinoff@gmail.com</a>, <a class="link--alias" href="https://www.instagram.com/mad.boz/" target="blank">@mad.boz</a></br></br></p>
+    
+    <h2>Design</h2>
+    <p><a class="link--alias" href="https://heyhush.com" target="blank">HUSH website, with Linked by Air</a></p>
+    <p><a class="link--alias" href="https://www.momaps1.org" target="blank">MoMA PS1 website, with Linked by Air</a></p>
+    <p><a class="link--alias" href="https://www.linkedbyair.net/projects/135-brooklyn-public-library-adams-st-branch-signage-and-murals" target="blank">Brooklyn Public Library DUMBO signage, with Linked by Air</a></p>
+    <p><a class="link--alias" href="https://aaron-mak.com" target="blank">Aaron Mak website</a></p>
+    <p><a class="link--alias" href="https://artgalleries.tufts.edu" target="blank">Tufts University Art Galleries website, with Linked by Air</a></p>
+    <p><a class="link" href="2018/index.html">Parsons BFA portfolio</a></br></br></p>
+
+    <h2>Development</h2>
+    <p><a class="link--alias" href="https://thistles.nyc" target="black">Thisltes NYC, with Anna Feng</a></p>
+    <p><a class="link--alias" href="http://c47creative.com/" target="black">C47 Creative, with Anna Feng</a></p>
   </div>
 </div>
 
 <script type="text/javascript">
 
+// Choose image + displace it
 var body = document.body;
 var random = Math.floor(Math.random() * 10 + 1);
 var number = random < 10 ? "0" + random : random;
@@ -68,6 +118,12 @@ var top_displacement = Math.floor(Math.random() * max_height);
 
 images[0].style.left = "-" + left_displacement + "px";
 images[0].style.top = "-" + top_displacement + "px";
+
+// Rotate text
+var header = document.getElementsByClassName("header")[0];
+var random_2 = Math.random() * 2 - 1;
+
+header.style.transform = "rotate(" + random_2 + "deg)";
 
 </script>
 

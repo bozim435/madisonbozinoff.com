@@ -66,8 +66,8 @@ const checkMap = {
     images: ["map-01.png", "map-02.png", "map-03.png", "map-04.png", "map-05.png", "map-08.png"]
 }
 
-const noiseFont = {
-    title: "Noise Font",
+const noisyFont = {
+    title: "Noisy Font",
     date: "2018",
     body: ["The letter &quot;M&quot; drawn with Perlin Noise. The letterform's visual character changes based on a randomized noise frequency, ranging from handwriting-esque to heavy metal."],
     links: [
@@ -102,10 +102,10 @@ const watercolorGradient = {
 const testingABot = {
     title: "Testing a bot",
     date: "2017",
-    body: ["My first twitter bot! @testing_a_bot."],
+    body: ["My first twitter bot! It uses processing and node.js to post images to twitter."],
     links: [
         {
-            displayText: "Twitter page",
+            displayText: "@testing_a_bot",
             reference: "https://twitter.com/testing_a_bot",
             isExternalLink: true
         }
@@ -113,8 +113,8 @@ const testingABot = {
     images: ["ink-01.jpg", "ink-02.jpg", "ink-03.jpg", "ink-04.jpg", "ink-05.jpg"]
 }
 
-const noiseFlower = {
-    title: "Noise Flower",
+const noisyFlower = {
+    title: "Noisy Flower",
     date: "2018",
     body: ["A program that grenerates wacky flowers using Perlin Noise. This relatively simple program creates suprisingly diverse outputs."],
     links: [
@@ -160,7 +160,7 @@ var egg = {
 
 /* Populate content */
 
-const content = [openHouse, turtleFeather, quadrate, checkMap, noiseFont, watercolorGradient, testingABot, noiseFlower];
+const content = [openHouse, turtleFeather, quadrate, checkMap, noisyFont, watercolorGradient, testingABot, noisyFlower];
 shuffleArray(content);
 
 for (let i = 0; i < content.length; i++){
