@@ -103,21 +103,29 @@ h1 {
 and (min-device-width: 375px) 
 and (max-device-width: 812px){ 
 
-	body {
+	.site-container {
 		margin: 2.75em 3em;
 		font-size: 28px;
 		line-height: 1.5em;
 	}
 
-	p {
+	.project {
+		margin-bottom: 2em;
+	}
+
+	.project__text {
 		max-width: 100%;
 	}
 
-	a {
+	.link, 
+	.link--alias {
 		border-bottom: solid 3px #aeafb0;
 	}
 
-	a:hover {
+	.link:hover,
+	a.link:hover,
+	.link--alias:hover,
+	a.link--alias:hover {
 		border-bottom: solid 3px orangered;
 	}
 
