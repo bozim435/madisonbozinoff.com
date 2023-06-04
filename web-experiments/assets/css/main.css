@@ -106,7 +106,7 @@ and (max-device-width: 812px){
 	body {
 		margin: 2.75em 3em;
 		font-size: 28px;
-		line-height: 1.5em;
+		line-height: 35px;
 	}
 
 	.project {
