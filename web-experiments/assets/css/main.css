@@ -103,7 +103,7 @@ h1 {
 and (min-device-width: 375px) 
 and (max-device-width: 812px){ 
 
-	.site-container {
+	body {
 		margin: 2.75em 3em;
 		font-size: 28px;
 		line-height: 1.5em;
