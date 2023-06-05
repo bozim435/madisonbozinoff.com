@@ -83,7 +83,7 @@ const noisyFont = {
 const watercolorGradient = {
     title: "Watercolor Gradient",
     date: "2018",
-    body: ["This program chooses two random colors. Colored circles are placed randomly on the canvas with a bias for one side. Each color is biased to one side of the canvas. The translucent circles create a texture that resembles watercolor."],
+    body: ["This program chooses two random colors. Each color is biased toward one side of the canvas. The translucent circles create a texture that resembles watercolor."],
     links: [
         {
             displayText: "Sketch & code",
