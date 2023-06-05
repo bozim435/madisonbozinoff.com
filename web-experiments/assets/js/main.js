@@ -27,7 +27,7 @@ const openHouse = {
 const turtleFeather = {
     title: "Turtle Feather",
     date: "2018",
-    body: ["A program I'm particulary proud of draws a feather using turtle graphics. In turtle graphics, there are only a few commands: &quot;left&quot;, &quot;right&quot;, and &quot;forward&quot;. For this reason, turtle graphics rarely allow for realistic-looking images. One expects the code for this sketch to be long and complex where it is actually simple and concise due to it's use of nested loops."],
+    body: ["A program I'm particulary proud of draws a feather using turtle graphics. In turtle graphics, there are only a few commands: &quot;left&quot;, &quot;right&quot;, and &quot;forward&quot;. For this reason, turtle graphics rarely allow for realistic-looking images. You would expect the code for this sketch to be complex when it is actually concise due to it's use of nested loops."],
     links: [
         {
             displayText: "Sketch & code",
@@ -116,7 +116,7 @@ const testingABot = {
 const noisyFlower = {
     title: "Noisy Flower",
     date: "2018",
-    body: ["A program that grenerates wacky flowers using Perlin Noise. This relatively simple program creates suprisingly diverse outputs."],
+    body: ["A program that grenerates wacky flowers using Perlin Noise. This simple program creates suprisingly diverse outputs."],
     links: [
         {
             displayText: "Sketch & code",
