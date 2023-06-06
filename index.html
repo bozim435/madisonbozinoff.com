@@ -14,10 +14,7 @@
   gtag('js', new Date());
   gtag('config', 'G-T9XPF0JL8V');
 </script>
-<script src="assets/js/grotesque-mt.js"></script>
 
-<link rel="stylesheet" type="text/css" href="assets/css/grotesque-mt.css">
-<link rel="stylesheet" type="text/css" href="assets/css/main.css">
 <link rel="shortcut icon" type="link" href="assets/favicons/favicon-01.png">
 
 <style type="text/css">
@@ -25,17 +22,13 @@
 @font-face {
   font-family: "cmunvi";
   src: url("assets/fonts/cmu/cmunvi.ttf") format("truetype");
-  font-weight: medium;
+  font-weight: normal;
   font-style: italic;
 }
 
 * {
-  padding: 0; 
+  padding: 0;
   margin: 0;
-}
-
-.site-container {
-  mix-blend-mode: exclusion;
 }
 
 *::selection {
@@ -49,18 +42,14 @@ img {
   z-index: -10;
 }
 
-.large {
-  font-size: 28;
-  line-height: 36;
-}
-
 .site-container {
-	margin: 20px 28px;
+  mix-blend-mode: exclusion;
+	margin: 1.25rem 1.75rem;
 	font-family: cmunvi;
-	font-weight: medium;
+	font-weight: normal;
 	font-style: italic;
-	font-size: 24px;
-	line-height: 1.25em;
+	font-size: 1.5rem;
+	line-height: 1.875rem;
 	color: #bbb;
 }
 
@@ -72,14 +61,14 @@ img {
 
 .link, 
 .link--alias {
-  border-bottom: solid 2px #bbb;
+  text-underline-offset: .5rem;
+  color: #bbb;
 }
 
 .link:hover,
 a.link:hover,
 .link--alias:hover,
 a.link--alias:hover {
-  border-bottom: solid 2px goldenrod;
 	color: goldenrod;
 }
 
@@ -95,13 +84,25 @@ p {
 	color: inherit;
 }
 
+@media (max-width: 700px) {
+  .site-container {
+    margin: 1.25rem 1.5rem;
+    font-size: 1.25rem;
+  }
+
+  .link, 
+  .link--alias {
+    /* border-bottom: solid 1.5px #bbb; */
+  }
+}
+
 </style>
 
 </head>
 <body>
   
 <div class="site-container">
-  <div class="header">
+  <main class="header">
     <h1>Madison Bozinoff</h1>
     <p>Senior designer at Linked by Air. Contact: <a class="link--alias" href="mailto:madison.bozinoff@gmail.com" target="blank">madison.bozinoff@gmail.com</a>, <a class="link--alias" href="https://www.instagram.com/mad.boz/" target="blank">@mad.boz</a></br></br></p>
     
@@ -116,7 +117,7 @@ p {
     <h2>Development</h2>
     <p><a class="link--alias" href="https://thistles.nyc" target="black">Thisltes, with Anna Feng</a></p>
     <p><a class="link--alias" href="http://c47creative.com/" target="black">C47, with Anna Feng</a></p>
-  </div>
+  </main>
 </div>
 
 <script type="text/javascript">
