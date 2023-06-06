@@ -79,17 +79,25 @@ a.link--alias:hover {
 
 h1, h2, h3, h4, h5, h6 {
 	text-transform: uppercase;
-	padding-bottom: 10px;
+	padding-bottom: 0.625rem;
   font-size: inherit;
   font-weight: inherit;
 }
 
 p {
-	padding-bottom: 15px;
+	padding-bottom: 0.9rem;
 	color: inherit;
 }
 
 @media (max-width: 700px) {
+  h1, h2, h3, h4, h5, h6 {
+    padding-bottom: 0.625rem;
+  }
+
+  p {
+    padding-bottom: 0.625rem;
+  }
+
   .site-container {
     margin: 1.25rem 1.5rem;
     font-size: 1.25rem;
