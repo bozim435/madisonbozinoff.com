@@ -29,17 +29,15 @@ window.onresize = function(event) {
 		for (let i = 0; i < images.length; i++) {
 			const image = images[i];
 			
-			// if (image.style.height == "30rem") {
-			// 	image.style.height = "auto";
-			// 	image.style.width = "calc(100% - 1.5rem)";
-			// } else {
-			// 	image.style.height = "auto";
-			// 	image.style.width = "calc(50% - 1.5rem)";
-			// }
-
-			image.style.height = "auto";
-			image.style.width = "calc(50% - 1.5rem)";
-			image.style.marginRight = "2rem"
+			if (image.style.height == "30rem") {
+				image.style.height = "auto";
+				image.style.width = "calc(100% - 1.5rem)";
+				image.style.marginRight = "1.5rem";
+			} else {
+				image.style.height = "auto";
+				image.style.width = "calc(50% - 1.5rem)";
+				image.style.marginRight = "1.5rem";
+			}
 		}
 	}
 	
@@ -48,19 +46,16 @@ window.onresize = function(event) {
 
 		for (let j = 0; j < images.length; j++) {
 			const image = images[j];
-
-			image.style.height = "5.5rem";
-			image.style.width = "auto";
-			image.style.marginRight = "1.5rem"
 			
-			// if (image.style.width == "calc(100% - 1.5rem)") {
-			// 	image.style.height = "30rem";
-			// 	image.style.width = "auto";
-			// } else {
-			// 	image.style.height = "5.5rem";
-			// 	image.style.width = "auto";
-			// 	image.style.marginRight = "1.5rem"
-			// }
+			if (image.style.width == "calc(100% - 1.5rem)") {
+				image.style.height = "30rem";
+				image.style.width = "auto";
+				image.style.marginRight = "2rem";
+			} else {
+				image.style.height = "5.5rem";
+				image.style.width = "auto";
+				image.style.marginRight = "2rem";
+			}
 		}
 	}
 }
