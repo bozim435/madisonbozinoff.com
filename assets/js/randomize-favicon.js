@@ -1,6 +1,6 @@
 window.setInterval(function() {
 	r = Math.floor(Math.random() * 5 + 1);
-	randomizeFavicon("assets/favicons/favicon-0" + r + ".png");
+	randomizeFavicon("../assets/favicons/favicon-0" + r + ".png");
 
 }, 500)
 

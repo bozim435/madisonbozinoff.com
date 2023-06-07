@@ -1,5 +1,5 @@
 projectsContainer.onclick = function(event) {
-	var target = event.target;
+	let target = event.target;
 
 	if (window.innerWidth > 500) {
 		if (target.tagName == "IMG") {
@@ -21,3 +21,38 @@ projectsContainer.onclick = function(event) {
 }
 
 // add something that resets the image sizes when resizing the browser
+
+window.onresize = function(event) {
+	let images = document.getElementsByTagName("IMG");
+
+	if (window.innerWidth == 500) {
+		for (let i = 0; i < images.length; i++) {
+			const image = images[i];
+			
+			if (image.style.height == "30rem") {
+				image.style.height = "auto";
+				image.style.width = "calc(100% - 1.5rem)";
+			} else {
+				image.style.height = "auto";
+				image.style.width = "calc(50% - 1.5rem)";
+			}
+		}
+	}
+	
+	if (window.innerWidth > 500 && window.innerWidth < 700) {
+		console.log("desktop view")
+
+		for (let j = 0; j < images.length; j++) {
+			const image = images[j];
+			
+			if (image.style.width == "calc(100% - 1.5rem)") {
+				image.style.height = "30rem";
+				image.style.width = "auto";
+			} else {
+				image.style.height = "5.5rem";
+				image.style.width = "auto";
+				image.style.marginRight = "1.5rem"
+			}
+		}
+	}
+}
