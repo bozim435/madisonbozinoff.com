@@ -20,8 +20,6 @@ projectsContainer.onclick = function(event) {
 	}
 }
 
-// add something that resets the image sizes when resizing the browser
-
 window.onresize = function(event) {
 	let images = document.getElementsByTagName("IMG");
 
