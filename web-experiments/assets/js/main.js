@@ -27,7 +27,7 @@ const openHouse = {
 const turtleFeather = {
     title: "Turtle Feather",
     date: "2018",
-    body: ["A program I'm particulary proud of draws a feather using turtle graphics. In turtle graphics, there are only a few commands: &quot;left&quot;, &quot;right&quot;, and &quot;forward&quot;. For this reason, turtle graphics rarely allow for realistic-looking images. You would expect the code for this sketch to be complex when it is actually concise due to it's use of nested loops."],
+    body: ["A program I'm particulary proud of draws a feather using turtle graphics. In turtle graphics, there are only a few commands: &quot;left&quot;, &quot;right&quot;, and &quot;forward&quot; (fig. 1). For this reason, turtle graphics rarely allow for realistic-looking images. You would expect the code for this sketch to be complex when it is actually concise due to it's use of nested loops."],
     links: [
         {
             displayText: "Sketch & code",
@@ -55,7 +55,7 @@ const quadrate = {
 const checkMap = {
     title: "Check Map",
     date: "2018",
-    body: ["Response to a coding challenge to generate a map using Perlin Noise. This program creates a field of checkboxes and assigns each checkbox a numeric value using noise. The checkbox is active on the condition that its value is larger than the median value. Caution, the program takes a long time to load."],
+    body: ["Response to a coding challenge to generate a map using Perlin Noise. This program creates a field of checkboxes and assigns each checkbox a numeric value using noise. The checkbox is active on the condition that its value is larger than the median value"],
     links: [
         {
             displayText: "Sketch & code",
