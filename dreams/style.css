@@ -1,9 +1,11 @@
 :root {
 	--color-light: #3D57FF;
 	--color-dark: #00062C;
+	--color-accent: #FEE0F6;
 	--space-sm: 1rem;
 	--space-md: 1.625rem;
-	--space-lg: 2rem;
+	--space-lg: 2.03rem;
+	--space-xl: 6.09rem;
 }
 
 ::selection {
@@ -35,21 +37,42 @@ h1, h2, h3, h4, h5, h6 {
 	font-size: inherit;
 }
 
-h2 {
-	margin-left: var(--space-md);
-}
-
 li {
 	margin-left: var(--space-md);
 }
 
 header {
-	margin-bottom: var(--space-lg);
+	margin-bottom: var(--space-xl);
 	display: grid;
+	grid-template-columns: 1fr 1fr;
 }
 
-article {
-	border-top: 2px solid var(--color-light);
-	padding-top: var(--space-md);
-	padding-bottom: var(--space-lg);
+.header__month {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.month {
+	margin: auto;
+	width: 80%;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.date {
+	height: var(--space-xl);
+}
+
+.date__number {
+	color: var(--color-accent);
+}
+
+.date__entry {
+	display: none;
+	position: fixed;
+	background: var(--color-dark);
+}
+
+.date__number:hover + .date__entry {
+    display: block;
 }
