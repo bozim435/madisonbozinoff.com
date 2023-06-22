@@ -1,7 +1,7 @@
 :root {
 	--color-light: #3D57FF;
 	--color-dark: #00062C;
-	--color-accent: #FEE0F6;
+	--color-accent: #F9BCEA;
 	--space-sm: 1rem;
 	--space-md: 1.625rem;
 	--space-lg: 2.03rem;
@@ -58,32 +58,32 @@ header {
 	justify-content: flex-end;
 }
 
-.month {
+.grid {
 	margin: auto;
 	width: 80%;
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 
-.date {
+.cell {
 	height: var(--space-xl);
 }
 
-.date__number {
+.cell__number--filled {
 	color: var(--color-accent);
 }
 
-.date__number:hover {
+.cell__number--filled:hover {
 	cursor: pointer;
 	color: var(--color-light);
 }
 
-.date__entry {
+.cell__entry {
 	display: none;
 	position: fixed;
 	background: var(--color-dark);
 }
 
-.date__number:hover + .date__entry {
+.cell__number--filled:hover + .cell__entry {
     display: block;
 }
