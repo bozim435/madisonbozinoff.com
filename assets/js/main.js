@@ -52,7 +52,7 @@ const littleFreeLibrary = {
     links: [
         {
             displayText: "Prototype",
-            reference: "https://invis.io/7YNROO06FJB",
+            reference: "https://www.figma.com/proto/zc4x0rvUiL5MbFaYhKblcV/Little-Free-Library---Fall-2017?page-id=0%3A1&type=design&node-id=1-51&viewport=684%2C1482%2C0.16&t=fvapU3wxWAUAJ4pO-1&scaling=scale-down&starting-point-node-id=1%3A51&mode=design",
             isExternalLink: true
         },
         {
