@@ -126,7 +126,7 @@ const sidebar = {
 
 /* Populate content */
 
-const content = [variations1, variations2, littleFreeLibrary, matter, rgbArea, readingWithoutPages];
+const content = [variations1, variations2, littleFreeLibrary, matter, rgbArea, readingWithoutPages, sidebar];
 shuffleArray(content);
 
 for (let i = 0; i < content.length; i++){
